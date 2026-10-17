@@ -1,0 +1,44 @@
+{
+  "project_root": "/root/autodl-tmp/sd-lora-preexp",
+  "models": {
+    "Qwen/Qwen3-0.6B": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/models/draft/Qwen3-0.6B",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+    },
+    "Qwen/Qwen3-4B": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/models/draft/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "Qwen/Qwen3-8B": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/models/target/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    }
+  },
+  "datasets": {
+    "openai/gsm8k": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/data/raw/math/gsm8k_main",
+      "revision": "740312add88f781978c0658806c59bc2815b9866"
+    },
+    "ise-uiuc/Magicoder-OSS-Instruct-75K": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/data/raw/code/magicoder_oss_instruct_75k",
+      "revision": "5f839b1f368a76b161028bb9edff055db34022b2"
+    },
+    "HuggingFaceH4/ultrachat_200k": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/data/raw/general/ultrachat_200k_sft",
+      "revision": "8049631c405ae6576f93f445c6b8166f76f5505a"
+    },
+    "google-research-datasets/mbpp": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/data/raw/evaluation/mbpp_sanitized",
+      "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c"
+    },
+    "openai/openai_humaneval": {
+      "path": "/root/autodl-tmp/sd-lora-preexp/data/raw/evaluation/humaneval",
+      "revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544"
+    }
+  },
+  "autoresearch_skill": "/root/.codex/skills/autoresearch",
+  "processed_data": "/root/autodl-tmp/sd-lora-preexp/data/processed",
+  "teacher_trajectories": "/root/autodl-tmp/sd-lora-preexp/data/teacher",
+  "adapters": "/root/autodl-tmp/sd-lora-preexp/adapters",
+  "results": "/root/autodl-tmp/sd-lora-preexp/results"
+}

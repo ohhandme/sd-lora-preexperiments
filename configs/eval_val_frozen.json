@@ -1,0 +1,1 @@
+{"partition":"adapter_val","max_new_tokens":256,"L":8,"positions":[0,32,64,128,192],"warmup":10,"repeats":3,"bootstrap":2000,"seed":42,"precision":"bfloat16","backend":"sdpa","metric":"macro_speedup_geo","test_locked":true}

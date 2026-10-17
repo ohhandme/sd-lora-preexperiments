@@ -1,0 +1,1 @@
+{"partition":"expert_train","per_domain":64,"max_new_tokens":64,"L":8,"extra_lengths":[4,12],"mismatch_tolerance":0,"test_locked":true}
