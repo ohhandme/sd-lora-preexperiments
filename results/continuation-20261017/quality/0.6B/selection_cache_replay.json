@@ -1,0 +1,60 @@
+{
+  "audits": [
+    {
+      "domain": "math",
+      "id": "openai/gsm8k:train:5851",
+      "method": "math",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "code",
+      "id": "ise-uiuc/Magicoder-OSS-Instruct-75K:train:47027",
+      "method": "code",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "general",
+      "id": "HuggingFaceH4/ultrachat_200k:train_sft:01e2b12b7592d7d9007ed5f3f58ee95bf23304e94bea5bbf5d7c22edd9efe025",
+      "method": "general",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "math",
+      "id": "openai/gsm8k:train:5851",
+      "method": "mix16",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "code",
+      "id": "ise-uiuc/Magicoder-OSS-Instruct-75K:train:47027",
+      "method": "mix16",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "general",
+      "id": "HuggingFaceH4/ultrachat_200k:train_sft:01e2b12b7592d7d9007ed5f3f58ee95bf23304e94bea5bbf5d7c22edd9efe025",
+      "method": "mix16",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "math",
+      "id": "openai/gsm8k:train:5851",
+      "method": "mix48",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "code",
+      "id": "ise-uiuc/Magicoder-OSS-Instruct-75K:train:47027",
+      "method": "mix48",
+      "token_proposals_exact": true
+    },
+    {
+      "domain": "general",
+      "id": "HuggingFaceH4/ultrachat_200k:train_sft:01e2b12b7592d7d9007ed5f3f58ee95bf23304e94bea5bbf5d7c22edd9efe025",
+      "method": "mix48",
+      "token_proposals_exact": true
+    }
+  ],
+  "fingerprint": "91fb2772a5f32c7019c6fd982e908e2377cd6516c06d99d8ebade3aecab9627b",
+  "state": "passed"
+}
