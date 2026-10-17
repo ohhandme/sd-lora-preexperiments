@@ -1,0 +1,26 @@
+{
+  "environment": "spec",
+  "python": "3.11.17 (main, Oct 13 2026, 16:45:47) [GCC 15.3.0]",
+  "prefix": "/root/miniconda3/envs/spec",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "transformers": "4.57.3",
+  "peft": "0.18.0",
+  "accelerate": "1.12.0",
+  "datasets": "4.4.1",
+  "gpu": "NVIDIA RTX 6000D",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "compiled_arches": [
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "bf16_supported": true
+}
