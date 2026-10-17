@@ -1,0 +1,113 @@
+{
+  "counts": {
+    "code.adapter_val": 200,
+    "code.expert_train": 2000,
+    "code.id_test": 300,
+    "code.router_train": 400,
+    "code.router_val": 100,
+    "general.adapter_val": 200,
+    "general.expert_train": 2000,
+    "general.id_test": 300,
+    "general.router_train": 400,
+    "general.router_val": 100,
+    "math.adapter_val": 200,
+    "math.expert_train": 2000,
+    "math.id_test": 300,
+    "math.router_train": 400,
+    "math.router_val": 100
+  },
+  "dedup": {
+    "permutations": 128,
+    "shingle_words": 5,
+    "threshold": 0.85,
+    "version": "normalized-word5-minhash128-jaccard0.85-v1"
+  },
+  "eligible": {
+    "code": 38252,
+    "general": 194897,
+    "math": 7472
+  },
+  "excluded": {
+    "code_length": 19,
+    "code_near": 13,
+    "general_empty": 1,
+    "general_exact": 4,
+    "general_length": 2549,
+    "general_near": 10414,
+    "general_test_length": 451,
+    "general_test_near": 128,
+    "math_near": 1
+  },
+  "files": {
+    "data/processed/code.adapter_val.jsonl": "efd93d6daa5fc2bb6ddab673065c4ca2e153d9f051660e06ef8b24eab24aeafe",
+    "data/processed/code.expert_train.jsonl": "c324d75a4dfabd3bad24a7be57aadc5ba092ba642637facbd127b033a5a6bd19",
+    "data/processed/code.id_test.jsonl": "94d90288d508e1d6f0d30e59c0f54d72f8961b951a71e00a5e4f727d57714565",
+    "data/processed/code.router_train.jsonl": "8063e5b7d7d1c5a573ea90479eba9c6a04a8003aff2793e514b997e11f395e19",
+    "data/processed/code.router_val.jsonl": "e73b0c379762f87c0ebdd6b4bce11cda9ece879f74228a4e8f4b047a4f96adb8",
+    "data/processed/general.adapter_val.jsonl": "506fb6b33eb86cce95ed704b58099a8e8369285cb49b5f2ea4dc1a4fd66b886d",
+    "data/processed/general.expert_train.jsonl": "e99c8648e01752ed878066dfbccc37f3a7f8a5afa43a3ac71f11c7a71a6f3b06",
+    "data/processed/general.id_test.jsonl": "8415c9fb8afda358a0119568cc238cb56c0350b1d3f1c9be968ee9107a74b1e8",
+    "data/processed/general.router_train.jsonl": "ea873442b9344e5de5b8346fafc1892b2d21c02246ba19fc95729ca5b45e928a",
+    "data/processed/general.router_val.jsonl": "b1610cfe924877544ede926cce9018260cb5e8aa2b231551c096f9d8bc9c2207",
+    "data/processed/math.adapter_val.jsonl": "e2969db2a424ba7b516edee8253cacad468dcb25b581030277f6019eec828217",
+    "data/processed/math.expert_train.jsonl": "061ecc8abc5da80f32a4151b0c0dec61af34a1c88774ec0e0ce3e1b9a295a8d9",
+    "data/processed/math.id_test.jsonl": "7b339f5ddda2ac18523723952ca6271a808ac5a79316fc3db5581cf37ff3bd71",
+    "data/processed/math.router_train.jsonl": "a370d361d6a1c83684c8b9a40e83a5b0eeeef30686818061c4bcf491f602c1fd",
+    "data/processed/math.router_val.jsonl": "479eaea4e2631c1e20f6b2f1f64f8bea6b8ff3cbf20033c8b9eefc2ac94e09a0"
+  },
+  "final_test_locked": true,
+  "general_test_reserved_inputs": 22531,
+  "provenance": {
+    "at": "2026-10-16T13:46:55.275742+00:00",
+    "code_commit": "d9f763de7dc0f7539969d9e97f5edf69ab115f20",
+    "config_sha": "baed7e8e49f9214585a563bd61af1e9d34f1caae6f747526dade45cba42cf90e",
+    "interpreter": "/root/miniconda3/envs/spec/bin/python",
+    "models": {
+      "Qwen/Qwen3-0.6B": {
+        "path": "/root/autodl-tmp/sd-lora-preexp/models/draft/Qwen3-0.6B",
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+      },
+      "Qwen/Qwen3-4B": {
+        "path": "/root/autodl-tmp/sd-lora-preexp/models/draft/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+      },
+      "Qwen/Qwen3-8B": {
+        "path": "/root/autodl-tmp/sd-lora-preexp/models/target/Qwen3-8B",
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+      }
+    },
+    "prefix": "/root/miniconda3/envs/spec",
+    "source_hashes": {
+      "check_environment.py": "45ed1c2f0ad8049287e66e4a132d6e9e5d25d4cfed305da594f799ff5b381604",
+      "configs/assets.local.json": "e3751edbd1ebddfa37da989f6fb5a14e30f9e742179ca12700203f7f8083ace2",
+      "configs/correctness_frozen.json": "ddc1e04d87c864c9a67eb47768a0258c9c6e08aafad31a606be0caa62e2b1c52",
+      "configs/eval_val_frozen.json": "7da3c4d7a74523af3df7a4cd87d2e4a6e5b8fedbfac30f73c86e6a984cb7f719",
+      "configs/protocol.json": "baed7e8e49f9214585a563bd61af1e9d34f1caae6f747526dade45cba42cf90e",
+      "eval_sd.py": "0e78875ae5a9e71726a9c1290e09e5afe68f723ecfe39096b8161d6969698f0e",
+      "generate_teacher.py": "ada56d6c906613e2f1513c91c1fc433ae420660d0ecba7bbe1919c872875828c",
+      "prepare_data.py": "0ee65f9b3e6a30fce9c5e830d3392c225bfdb11a914ee88aee116f393f6e407f",
+      "profile_models.py": "ed34fd6f88879bfb148212cd6728fd4a859a6ad61db5e78cc0d12f7ee73d4a75",
+      "program.md": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+      "run_background.py": "3cda2ac1ecce1fb4f1b78227b1eb09f15bc75659b722f9dd0a2b47bdd7cd16eb",
+      "run_seed42_pipeline.py": "9f057a9912d6ac38efec53cbf1d93fb9c577ae2408c20c271c390915c0362b4e",
+      "scripts/run_seed42.sh": "a177dbb77ebd0a8e22d36746e55c457e925b64a79009b6a1109cac13c3d00fd8",
+      "smoke_test.py": "dee9a69708fdbdf71ec71642479a5481d67671c4e359ce758120b6c4a0ec916b",
+      "spec_research/__init__.py": "b5d0e0732f5fda9a14dac1c1b4c24f61d7fd99cd3379b9375cdb08c2a777de89",
+      "spec_research/common.py": "791322183039d592be405885a5b81614de7de01ec6794685361adf591514df95",
+      "spec_research/data.py": "e538016753f5e110d94e6ee727a58380112a1a0ff8ed78dd3bd00401676cbb72",
+      "spec_research/decoding.py": "690baf56fbd59e3ffa0ae266c7938f0edb63ee0754625630cfd7e7e85fbcd86b",
+      "spec_research/environment.py": "7e203e91f59199056f851e4b29c243a7e755d8bc5af55555ed9d14b77de47e2c",
+      "spec_research/evaluation.py": "ec76d6c45bce3a452431c55d69ca54d892424225ae4bf6b8ac4a63eb1055b587",
+      "spec_research/gate.py": "448cf6b33db2d26f4926ac22434e2f5e6184ac67e1d0eebfe6c995845f92b58f",
+      "spec_research/teacher.py": "479381504c661634972fe71d99cb741729871c8cddd5bfdc5f3c1673a27c3d27",
+      "spec_research/training.py": "4df5b578afdab35f20547810fe3183d4d7caca8c0df5a4a48d44574780a7728f",
+      "tests/test_decoding.py": "ee7c01db4a22ce7cbfe2b0c458ebc54ff5367876cd83d935d65f6360231ae532",
+      "tests/test_training.py": "c94edcaea521cc615d02e17bc5e330cf67bfefb8d179198cb85af89dfda1ef28",
+      "train_lora.py": "7f56b1437a13f2a8f863223806ffdb3f384c29e61b53326fd2a25a72adf253bd",
+      "train_router.py": "b2c4bfd5c429fd79209c425e345e18660bc557dd0c74617842382c0a5caeec99",
+      "validate_gate.py": "75eec2b2345bc351193ac633c507304adf88af51fe2d609d4e4061b93755571e"
+    }
+  },
+  "seed": 20261015,
+  "state": "complete"
+}

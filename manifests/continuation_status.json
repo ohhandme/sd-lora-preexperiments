@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-17T06:33:50.538980+00:00",
+  "attempts": {
+    "quality8.0.6B": 1,
+    "train.0.6B.mix48": 1,
+    "train.4B.mix16": 1,
+    "train.4B.mix48": 1
+  },
+  "completed_jobs": [
+    "train.0.6B.code",
+    "train.0.6B.general",
+    "train.0.6B.math",
+    "train.0.6B.mix16",
+    "train.0.6B.mix48",
+    "train.4B.code",
+    "train.4B.general",
+    "train.4B.math",
+    "train.4B.mix16",
+    "train.4B.mix48"
+  ],
+  "coordinator_pid": 94009,
+  "environment": "/root/miniconda3/envs/spec",
+  "failed_jobs": {},
+  "gpu": {
+    "total_mib": 85651,
+    "used_mib": 3879,
+    "utilization": 33
+  },
+  "phase": "evaluation",
+  "program_sha256": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+  "state": "running",
+  "workers": {
+    "quality8.0.6B": {
+      "kind": "evaluation",
+      "log": "/root/autodl-tmp/sd-lora-preexp/logs/continuation-20261017/quality8.0.6B.attempt1.log",
+      "pid": 94139,
+      "progress_paths": [
+        "/root/autodl-tmp/sd-lora-preexp/logs/continuation-20261017/quality8.0.6B.attempt1.log",
+        "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/matrix.jsonl",
+        "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/labels.jsonl",
+        "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/requests.jsonl",
+        "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/router_validation.json"
+      ],
+      "started_unix": 1792218204.872048
+    }
+  }
+}

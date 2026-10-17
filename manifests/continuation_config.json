@@ -1,0 +1,23 @@
+{
+  "autoresearch_directory": "/root/autodl-tmp/sd-lora-preexp/autoresearch/classic-261017-0413",
+  "completion_bounded": true,
+  "evaluation_checks": "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/evaluation_implementation_checks.json",
+  "evaluation_ready": true,
+  "evaluation_ready_at": "2026-10-17T04:37:42.964927+00:00",
+  "final_test_locked": true,
+  "max_parallel_training": 2,
+  "online_lengths": [
+    8
+  ],
+  "online_repeats": 1,
+  "online_requests_per_domain": 8,
+  "online_scope": "preliminary24",
+  "program_sha256": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+  "scope_authorization": "User chose8 per domain24 total L8 one repeat on2026-10-17; full online75600 comparisons no longer authorized for this preliminary stage",
+  "scope_changed_at": "2026-10-17T05:09:09.758389+00:00",
+  "scope_transition_completed_at": "2026-10-17T06:23:20.158308+00:00",
+  "scope_transition_ready": true,
+  "seed": 42,
+  "start_utc": "2026-10-17T04:13:50.861943+00:00",
+  "success": "All10 seed42 adapter selections, eachscale600x6 L8 quality,1500 routing labels and24x7 L8 single-repeat online; full matrix deferred by user"
+}
