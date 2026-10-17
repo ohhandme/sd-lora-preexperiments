@@ -1,0 +1,390 @@
+{
+  "created_at": "20261017T063350Z",
+  "scope": "seed42 validated training and selection; evaluation snapshot in progress",
+  "training_groups": 10,
+  "teacher_records": 8100,
+  "selected_adapters": [
+    {
+      "scale": "0.6B",
+      "method": "math",
+      "epoch": 1,
+      "adapter": "adapters/0.6B/math/seed42/overnight-20261017-seed42/epoch1",
+      "evidence": [
+        {
+          "coverage": {
+            "math": 200
+          },
+          "domain_means": {
+            "math": 5.469833333333334
+          },
+          "epoch": 1,
+          "macro_mean_a": 5.469833333333334
+        },
+        {
+          "coverage": {
+            "math": 200
+          },
+          "domain_means": {
+            "math": 5.453833333333334
+          },
+          "epoch": 2,
+          "macro_mean_a": 5.453833333333334
+        }
+      ],
+      "sha256": "8cfba24a124eb79df9fa33fa7b6c8dd905a5567c1510cc8e129079cb8890e585"
+    },
+    {
+      "scale": "0.6B",
+      "method": "code",
+      "epoch": 2,
+      "adapter": "adapters/0.6B/code/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "code": 200
+          },
+          "domain_means": {
+            "code": 4.76625
+          },
+          "epoch": 1,
+          "macro_mean_a": 4.76625
+        },
+        {
+          "coverage": {
+            "code": 200
+          },
+          "domain_means": {
+            "code": 4.78325
+          },
+          "epoch": 2,
+          "macro_mean_a": 4.78325
+        }
+      ],
+      "sha256": "1732c7dc37468c4709aacef91b5e68ee60ecce9a354d6a7e79ff845aca936f74"
+    },
+    {
+      "scale": "0.6B",
+      "method": "general",
+      "epoch": 2,
+      "adapter": "adapters/0.6B/general/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "general": 200
+          },
+          "domain_means": {
+            "general": 2.3983333333333334
+          },
+          "epoch": 1,
+          "macro_mean_a": 2.3983333333333334
+        },
+        {
+          "coverage": {
+            "general": 200
+          },
+          "domain_means": {
+            "general": 2.4323333333333332
+          },
+          "epoch": 2,
+          "macro_mean_a": 2.4323333333333332
+        }
+      ],
+      "sha256": "5537b1e5fe2d0e3b9dd31d7c1ffafe6365dbcbaaa29c4c4a00da07358d009507"
+    },
+    {
+      "scale": "0.6B",
+      "method": "mix16",
+      "epoch": 2,
+      "adapter": "adapters/0.6B/mix16/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 4.698,
+            "general": 2.3578333333333332,
+            "math": 5.493666666666667
+          },
+          "epoch": 1,
+          "macro_mean_a": 4.183166666666667
+        },
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 4.83525,
+            "general": 2.4255,
+            "math": 5.491583333333334
+          },
+          "epoch": 2,
+          "macro_mean_a": 4.2507777777777775
+        }
+      ],
+      "sha256": "d6b70eb6f5182f0e11f425499fda3b69472e5b1276e47a44423fee8c4c70a83b"
+    },
+    {
+      "scale": "0.6B",
+      "method": "mix48",
+      "epoch": 2,
+      "adapter": "adapters/0.6B/mix48/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 4.80875,
+            "general": 2.4185,
+            "math": 5.5473333333333334
+          },
+          "epoch": 1,
+          "macro_mean_a": 4.258194444444444
+        },
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 4.86125,
+            "general": 2.4629166666666666,
+            "math": 5.54675
+          },
+          "epoch": 2,
+          "macro_mean_a": 4.290305555555555
+        }
+      ],
+      "sha256": "03eb415517bca51091be6d5a4771da78bc6f7db5b181e811061c42680ead5fae"
+    },
+    {
+      "scale": "4B",
+      "method": "math",
+      "epoch": 2,
+      "adapter": "adapters/4B/math/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "math": 200
+          },
+          "domain_means": {
+            "math": 6.388166666666667
+          },
+          "epoch": 1,
+          "macro_mean_a": 6.388166666666667
+        },
+        {
+          "coverage": {
+            "math": 200
+          },
+          "domain_means": {
+            "math": 6.391166666666667
+          },
+          "epoch": 2,
+          "macro_mean_a": 6.391166666666667
+        }
+      ],
+      "sha256": "24d5c8105d6abe02098c7da80914cc63861650428647e261584e34a753ae79f5"
+    },
+    {
+      "scale": "4B",
+      "method": "code",
+      "epoch": 2,
+      "adapter": "adapters/4B/code/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "code": 200
+          },
+          "domain_means": {
+            "code": 6.0255
+          },
+          "epoch": 1,
+          "macro_mean_a": 6.0255
+        },
+        {
+          "coverage": {
+            "code": 200
+          },
+          "domain_means": {
+            "code": 6.05925
+          },
+          "epoch": 2,
+          "macro_mean_a": 6.05925
+        }
+      ],
+      "sha256": "8ecbf31ba060c0b8eb5ce9de4ccc996a7a63abd33b9aba6c5e5d2e97a10be5a6"
+    },
+    {
+      "scale": "4B",
+      "method": "general",
+      "epoch": 2,
+      "adapter": "adapters/4B/general/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "general": 200
+          },
+          "domain_means": {
+            "general": 3.8890833333333332
+          },
+          "epoch": 1,
+          "macro_mean_a": 3.8890833333333332
+        },
+        {
+          "coverage": {
+            "general": 200
+          },
+          "domain_means": {
+            "general": 3.902083333333333
+          },
+          "epoch": 2,
+          "macro_mean_a": 3.902083333333333
+        }
+      ],
+      "sha256": "ceb8e216d12b28102d9b6a18b69a3fdc681cfd4934126dea9df0d13e246d3832"
+    },
+    {
+      "scale": "4B",
+      "method": "mix16",
+      "epoch": 2,
+      "adapter": "adapters/4B/mix16/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 6.015,
+            "general": 3.875583333333333,
+            "math": 6.458083333333334
+          },
+          "epoch": 1,
+          "macro_mean_a": 5.4495555555555555
+        },
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 6.087,
+            "general": 3.8911666666666664,
+            "math": 6.4385
+          },
+          "epoch": 2,
+          "macro_mean_a": 5.472222222222222
+        }
+      ],
+      "sha256": "435e99030b5cfd6e50d215817ce1ecc56fd9a49ab63cc38a2edd94182849c134"
+    },
+    {
+      "scale": "4B",
+      "method": "mix48",
+      "epoch": 2,
+      "adapter": "adapters/4B/mix48/seed42/overnight-20261017-seed42/epoch2",
+      "evidence": [
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 5.977,
+            "general": 3.9404166666666667,
+            "math": 6.413333333333333
+          },
+          "epoch": 1,
+          "macro_mean_a": 5.443583333333334
+        },
+        {
+          "coverage": {
+            "code": 200,
+            "general": 200,
+            "math": 200
+          },
+          "domain_means": {
+            "code": 6.046,
+            "general": 3.9085,
+            "math": 6.459583333333334
+          },
+          "epoch": 2,
+          "macro_mean_a": 5.471361111111111
+        }
+      ],
+      "sha256": "b6598160f7433de3c2ac9c76a5d297cd9f1bff84fdf899b296ec2411f69c848f"
+    }
+  ],
+  "program_sha256": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+  "source_commit": "de0ccc9e558fb9968d8e9371e1da930043e249a6",
+  "status_at_export": {
+    "at": "2026-10-17T06:33:50.538980+00:00",
+    "attempts": {
+      "quality8.0.6B": 1,
+      "train.0.6B.mix48": 1,
+      "train.4B.mix16": 1,
+      "train.4B.mix48": 1
+    },
+    "completed_jobs": [
+      "train.0.6B.code",
+      "train.0.6B.general",
+      "train.0.6B.math",
+      "train.0.6B.mix16",
+      "train.0.6B.mix48",
+      "train.4B.code",
+      "train.4B.general",
+      "train.4B.math",
+      "train.4B.mix16",
+      "train.4B.mix48"
+    ],
+    "coordinator_pid": 94009,
+    "environment": "/root/miniconda3/envs/spec",
+    "failed_jobs": {},
+    "gpu": {
+      "total_mib": 85651,
+      "used_mib": 3879,
+      "utilization": 33
+    },
+    "phase": "evaluation",
+    "program_sha256": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+    "state": "running",
+    "workers": {
+      "quality8.0.6B": {
+        "kind": "evaluation",
+        "log": "/root/autodl-tmp/sd-lora-preexp/logs/continuation-20261017/quality8.0.6B.attempt1.log",
+        "pid": 94139,
+        "progress_paths": [
+          "/root/autodl-tmp/sd-lora-preexp/logs/continuation-20261017/quality8.0.6B.attempt1.log",
+          "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/matrix.jsonl",
+          "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/labels.jsonl",
+          "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/requests.jsonl",
+          "/root/autodl-tmp/sd-lora-preexp/results/continuation-20261017/quality/0.6B/router_validation.json"
+        ],
+        "started_unix": 1792218204.872048
+      }
+    }
+  },
+  "excluded": [
+    "base model checkpoints (pinned revisions provided)",
+    "unselected epochs",
+    "optimizer/resume checkpoints",
+    "failed historical implementations",
+    "raw downloaded datasets",
+    "held-out id_test files",
+    "credentials, SSH keys, authentication logs",
+    "partial JSONL tail"
+  ],
+  "services_interrupted": false
+}

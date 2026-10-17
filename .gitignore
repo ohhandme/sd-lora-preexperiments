@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.pem
+*.key
+auth.json
+cache/
+models/
+logs/
+*.part
+resume.pt
+data/teacher/
+adapters/
