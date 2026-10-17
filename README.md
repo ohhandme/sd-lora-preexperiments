@@ -10,7 +10,7 @@ Qwen3-0.6B / Qwen3-4B 草稿主干、领域 LoRA 与混合领域 LoRA 的 seed42
 
 - `adapters/{0.6B,4B}/{math,code,general,mix16,mix48}/seed42/overnight-20261017-seed42/`：**10 个选中 LoRA 的真实 safetensors 权重**、adapter_config、selected.json、训练完成记录。每组只保留选中的 epoch。
 - `data/teacher/{math,code,general}/`：8100 条已冻结教师记录，包含 token ID、来源及校验信息；无需重新生成。
-- `data/processed/`：训练、adapter_val、router_train、router_val 固定划分；不附上锁定的最终测试数据。
+- `data/processed/`：训练、adapter_val、router_train、router_val 固定划分；最终测试划分只作冻结备份，仍保持锁定，不参与本次训练、选模或评测。
 - `results/validation/`：逐样本、逐 epoch 的选模接受记录；`results/continuation-20261017/` 为导出时已生成的阶段结果。
 - `results/smoke/report.json`、`manifests/p0_gate.json`：通过的正确性检查及源码绑定信息。
 - `SNAPSHOT.json`：导出时间、所选 epoch、权重 SHA256、当时真实进程阶段及排除项。
@@ -32,7 +32,6 @@ python -m pip install -r environment/requirements-portable.txt
 ```bash
 cd /root/autodl-tmp/sd-lora-preexp
 /root/miniconda3/envs/spec/bin/python -m pytest -q scripts/continuation/test_evaluation_helpers.py
-/root/miniconda3/envs/spec/bin/python check_environment.py --help
 /root/miniconda3/envs/spec/bin/python smoke_test.py --help
 ```
 

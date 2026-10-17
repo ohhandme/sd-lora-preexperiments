@@ -382,9 +382,9 @@
     "optimizer/resume checkpoints",
     "failed historical implementations",
     "raw downloaded datasets",
-    "held-out id_test files",
     "credentials, SSH keys, authentication logs",
     "partial JSONL tail"
   ],
-  "services_interrupted": false
+  "services_interrupted": false,
+  "correctness_evidence_extension": "P0 evidence_hashes copied and verified; frozen id_test files copied only, no evaluation performed; smoke adapters retained as gate evidence, separate from10 trained selected adapters"
 }

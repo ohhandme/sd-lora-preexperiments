@@ -6,7 +6,7 @@
 
 ## 1.2 冻结数据与训练
 
-math/GSM8K、code/Magicoder Python、general/UltraChat，固定 seed_data=20261015。每领域2000 expert_train、200 adapter_val、400 router_train、100 router_val；另有锁定的300条 id_test 不用于本次归档评测。去重和文件 SHA 见 manifests/data.json，具体数据集固定版本见 configs/assets.local.json。
+math/GSM8K、code/Magicoder Python、general/UltraChat，固定 seed_data=20261015。每领域2000 expert_train、200 adapter_val、400 router_train、100 router_val；另有锁定的300条 id_test 仅备份，不用于本次归档评测。去重和文件 SHA 见 manifests/data.json，具体数据集固定版本见 configs/assets.local.json。
 
 同一 Qwen3-8B 教师产生8100条记录。三个领域专家分别使用本领域2000条，两个混合适配器使用6000条；各训练2 epoch，同一样本曝光两次。混合组更新数更多，不能描述为各组总训练 FLOP 严格相等。MIX48用于与三个r16适配器的参数量预算比较，主干大小成本另报。
 
