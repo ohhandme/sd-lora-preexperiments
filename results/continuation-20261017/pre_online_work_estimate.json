@@ -1,0 +1,68 @@
+{
+  "AR18passes_hours": 22.037386645790065,
+  "AR_baseline": 31.71360612005744,
+  "at": "2026-10-17T05:02:40.316804+00:00",
+  "estimate_only": true,
+  "naive_total_online_hours": 523.4603038781696,
+  "smoke_based": {
+    "0.6B": {
+      "domains": {
+        "code": {
+          "AR_tokens_per_s": 24.465188401063035,
+          "SD_tokens_per_s": 10.096220684279363,
+          "mean_SD_seconds_per_request": 6.339005653833738,
+          "output_tokens": 4096,
+          "samples": 64
+        },
+        "general": {
+          "AR_tokens_per_s": 23.101878102055913,
+          "SD_tokens_per_s": 7.15518575275315,
+          "mean_SD_seconds_per_request": 8.787333015890908,
+          "output_tokens": 4024,
+          "samples": 64
+        },
+        "math": {
+          "AR_tokens_per_s": 24.970729623981427,
+          "SD_tokens_per_s": 11.328875954615455,
+          "mean_SD_seconds_per_request": 5.643763799351291,
+          "output_tokens": 4092,
+          "samples": 64
+        }
+      },
+      "extrapolated_SD63configs_hours": 267.83823800382595,
+      "note": "P0 max64 and smoke-only LoRA, not formal adapters/max256 or allL; overhead/acceptance/length effects make direct extrapolation highly uncertain. Correctness engine measured; no formal performance conclusion."
+    },
+    "4B": {
+      "domains": {
+        "code": {
+          "AR_tokens_per_s": 24.874706685573976,
+          "SD_tokens_per_s": 11.63652179029415,
+          "mean_SD_seconds_per_request": 5.499925248572254,
+          "output_tokens": 4096,
+          "samples": 64
+        },
+        "general": {
+          "AR_tokens_per_s": 24.906489715438777,
+          "SD_tokens_per_s": 8.779330845624285,
+          "mean_SD_seconds_per_request": 7.161707549879793,
+          "output_tokens": 4024,
+          "samples": 64
+        },
+        "math": {
+          "AR_tokens_per_s": 24.286669298149654,
+          "SD_tokens_per_s": 11.581379101669368,
+          "mean_SD_seconds_per_request": 5.520715576160001,
+          "output_tokens": 4092,
+          "samples": 64
+        }
+      },
+      "extrapolated_SD63configs_hours": 233.5846792285536,
+      "note": "P0 max64 and smoke-only LoRA, not formal adapters/max256 or allL; overhead/acceptance/length effects make direct extrapolation highly uncertain. Correctness engine measured; no formal performance conclusion."
+    }
+  },
+  "validation_tokens": {
+    "code": 50088,
+    "general": 47139,
+    "math": 42550
+  }
+}

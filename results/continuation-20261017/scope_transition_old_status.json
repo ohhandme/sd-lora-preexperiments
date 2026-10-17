@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-17T06:23:09.428401+00:00",
+  "attempts": {
+    "train.0.6B.mix48": 1,
+    "train.4B.mix16": 1,
+    "train.4B.mix48": 1
+  },
+  "completed_jobs": [
+    "train.0.6B.code",
+    "train.0.6B.general",
+    "train.0.6B.math",
+    "train.0.6B.mix16",
+    "train.0.6B.mix48",
+    "train.4B.code",
+    "train.4B.general",
+    "train.4B.math",
+    "train.4B.mix16",
+    "train.4B.mix48"
+  ],
+  "coordinator_pid": 84828,
+  "environment": "/root/miniconda3/envs/spec",
+  "failed_jobs": {},
+  "gpu": {
+    "total_mib": 85651,
+    "used_mib": 0,
+    "utilization": 0
+  },
+  "phase": "evaluation_code_verification_pending",
+  "program_sha256": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+  "state": "running",
+  "workers": {}
+}

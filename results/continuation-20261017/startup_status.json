@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-17T04:40:35.508793+00:00",
+  "completed_jobs": [
+    "train.0.6B.code",
+    "train.0.6B.general",
+    "train.0.6B.math",
+    "train.0.6B.mix16",
+    "train.4B.code",
+    "train.4B.general",
+    "train.4B.math",
+    "train.4B.mix16"
+  ],
+  "evaluation_ready": true,
+  "gpu": {
+    "total_mib": 85651,
+    "used_mib": 43116,
+    "utilization": 93
+  },
+  "helper_tests": 8,
+  "state": "running",
+  "training": {
+    "0.6B": {
+      "at": "2026-10-17T04:40:32.105161+00:00",
+      "epoch": 2,
+      "loss": 0.6287266407161951,
+      "offset": 2480,
+      "step": 530
+    },
+    "4B": {
+      "at": "2026-10-17T04:40:31.897676+00:00",
+      "epoch": 1,
+      "loss": 0.2990970073733479,
+      "offset": 1264,
+      "step": 79
+    }
+  },
+  "worker_commands": {
+    "train.0.6B.mix48": "/root/miniconda3/envs/spec/bin/python -u /root/autodl-tmp/sd-lora-preexp/scripts/continuation/continuation_worker.py --scale 0.6B --method mix48 --managed-lock-fd 4 ",
+    "train.4B.mix48": "/root/miniconda3/envs/spec/bin/python -u /root/autodl-tmp/sd-lora-preexp/scripts/continuation/continuation_worker.py --scale 4B --method mix48 --managed-lock-fd 4 "
+  },
+  "workers": {
+    "train.0.6B.mix48": 84962,
+    "train.4B.mix48": 86778
+  }
+}
