@@ -1,0 +1,303 @@
+{
+  "state": "passed",
+  "scope": "24 locally recovered adapters only; not final experiment guard",
+  "adapters": 24,
+  "checkpoints": 58,
+  "weights": [
+    {
+      "adapter": "mismatch_0",
+      "step": 16,
+      "sha256": "41c96b78aa0e0723d93bfc3ec82098f4e80998fbf16f4631fd121a80afdd7481"
+    },
+    {
+      "adapter": "mismatch_0",
+      "step": 2,
+      "sha256": "85177e989157b769df8d703420a6c17ae53dac75879e4310405c3ee919000ae5"
+    },
+    {
+      "adapter": "mismatch_0",
+      "step": 32,
+      "sha256": "8457ed39f300982fe5b58e9612aa5c1f332dd4d56bf50d42f4ac472f6c1731c7"
+    },
+    {
+      "adapter": "mismatch_1",
+      "step": 16,
+      "sha256": "f933693c9ace77a8ab117750811cecb0156158ab3cda8b002aac852c4d5be2fe"
+    },
+    {
+      "adapter": "mismatch_1",
+      "step": 2,
+      "sha256": "4db94acefa8622d24f735286d2fe3a70834a3a7dd1eabd0a4080bf42b727b373"
+    },
+    {
+      "adapter": "mismatch_1",
+      "step": 32,
+      "sha256": "c35955b7d3ed90f0571d5013813db46611fdb111fe148d094ab0755228733023"
+    },
+    {
+      "adapter": "mismatch_2",
+      "step": 16,
+      "sha256": "a6be8d41367eebd51ccbfe4f94721c5bf9538f5f824c8bc290d949127d6d7105"
+    },
+    {
+      "adapter": "mismatch_2",
+      "step": 2,
+      "sha256": "d3a45bc5a99ed54c20390baf9d8222f80ad94811dee962b0f8182731212a83b0"
+    },
+    {
+      "adapter": "mismatch_2",
+      "step": 32,
+      "sha256": "1b2074711f1ef84f81ff84a85d729bd5c3bc351e945911043e1ba06e866ae6fc"
+    },
+    {
+      "adapter": "mismatch_3",
+      "step": 16,
+      "sha256": "36b27b6ff3e7da673a456cb48101bff6250eec9e16b5b27539889e05e7ff0d16"
+    },
+    {
+      "adapter": "mismatch_3",
+      "step": 2,
+      "sha256": "4733acc8f23766a88c0350d2eb4ec5951487a4341cc5d1de380902b36908988d"
+    },
+    {
+      "adapter": "mismatch_3",
+      "step": 32,
+      "sha256": "7780f3a74884bd3e2298971ab83228c0e05fed284fda16099a2deed565d1edf6"
+    },
+    {
+      "adapter": "mismatch_4",
+      "step": 16,
+      "sha256": "84c46c4cc96a6cfd5d8724cbffd7a8cd0832716bc319850954170599ff596479"
+    },
+    {
+      "adapter": "mismatch_4",
+      "step": 2,
+      "sha256": "42b26afd3675911dafa31ca8052c908a203e5375ee6c213b16b4ce8e5e7176bf"
+    },
+    {
+      "adapter": "mismatch_4",
+      "step": 32,
+      "sha256": "38bad98ff2dd7302be336b80869fc168dac8a8926416b075d254e9bb1bbe8c14"
+    },
+    {
+      "adapter": "pooled",
+      "step": 10,
+      "sha256": "426eb196d97b06e158b2bcd000122edd7dbd0973d15d622956485e6df81d1f3d"
+    },
+    {
+      "adapter": "pooled",
+      "step": 160,
+      "sha256": "872e237097c01d217e9e191c33c62bd827f5aa29583a541ffce923c4e9d50490"
+    },
+    {
+      "adapter": "pooled",
+      "step": 80,
+      "sha256": "bf92f33b5f908cf8f1b5e88c5b16a6816d7fd3b59a94deafc3ccf5b1fa85c9cf"
+    },
+    {
+      "adapter": "random_0",
+      "step": 16,
+      "sha256": "02bc485e6f1accdb01809ad7b0bd3fa653f73970572955cf72a24684cb91d13d"
+    },
+    {
+      "adapter": "random_0",
+      "step": 2,
+      "sha256": "11a950dc6d0ba920fe22cccfa24438c8970d02a7a4f022ffe51cd3bde623e871"
+    },
+    {
+      "adapter": "random_0",
+      "step": 32,
+      "sha256": "344fd56cdf2f164820d8fbe83af96f3f8f8f8629b1eaabd38185911dcb980f8e"
+    },
+    {
+      "adapter": "random_1",
+      "step": 16,
+      "sha256": "9abafb88fe598251a60c33640bfd38109984e2d358e940e2a43258f378bb6142"
+    },
+    {
+      "adapter": "random_1",
+      "step": 2,
+      "sha256": "af3b6afc4333c5074cda289f2c70890e6e9587a0fa1230f03702158ad105aa17"
+    },
+    {
+      "adapter": "random_1",
+      "step": 32,
+      "sha256": "3c11d30b9ef0bdf1a5e316056d0d4f533bdf8dcbdb102fc070d2a42d185a5655"
+    },
+    {
+      "adapter": "random_2",
+      "step": 16,
+      "sha256": "14d615fa0268d0c00ea76c468d5e78e9904db7125aad98e10e9d2f0809510f88"
+    },
+    {
+      "adapter": "random_2",
+      "step": 2,
+      "sha256": "135dca291a3dd9892600cc0188ac46eccd33b0fb52f2756c77efb8f0dcbb0806"
+    },
+    {
+      "adapter": "random_2",
+      "step": 32,
+      "sha256": "3565833a1cce8cb188c5e68b601348e393a3c6c68ba7b3b033a638cfff1788c1"
+    },
+    {
+      "adapter": "random_3",
+      "step": 16,
+      "sha256": "43c9cfbee81738b86a36d8896df927e79a6a2fad117e8bbe3bbcfc272d2749f3"
+    },
+    {
+      "adapter": "random_3",
+      "step": 2,
+      "sha256": "fc43d775900410e835cb2cd7a0fb8540985234a7a800df41cf65031c2745ef3a"
+    },
+    {
+      "adapter": "random_3",
+      "step": 32,
+      "sha256": "ca26445da90973590d1901a5c4d610c2656491ed94ac13c4964c58ae25bc6795"
+    },
+    {
+      "adapter": "random_4",
+      "step": 16,
+      "sha256": "9d945238bf42426ace2a156cac6e70d34449dd4e1d7220fa4b03918e882c4d41"
+    },
+    {
+      "adapter": "random_4",
+      "step": 2,
+      "sha256": "ae0dc8adcd9a4c165126b47900067b9ea873f52ef836154ace82725598b55a01"
+    },
+    {
+      "adapter": "random_4",
+      "step": 32,
+      "sha256": "26d4639656aa17fa3c8e82b286b9a81839afed4825fc0753ba356c8a43e481ca"
+    },
+    {
+      "adapter": "rank32_0",
+      "step": 32,
+      "sha256": "e8588af91187a28a54eb6bbf07d253850c98d35c9acfddabc34f7f79a4dbc80e"
+    },
+    {
+      "adapter": "rank32_1",
+      "step": 32,
+      "sha256": "25952bcfbaa38c522c039b4836f151a7e613cccbc18b0b6167652e95896d3482"
+    },
+    {
+      "adapter": "rank32_2",
+      "step": 32,
+      "sha256": "17646f849e2741926217f7879e43c2261028ba445b5e54a095ae8d3fcff831b7"
+    },
+    {
+      "adapter": "rank32_3",
+      "step": 32,
+      "sha256": "717aaabc7d35e9482a08ec5435dbb335ab3980789fdbd0d6c3f5436002b4f78a"
+    },
+    {
+      "adapter": "rank32_4",
+      "step": 32,
+      "sha256": "0ece8687c0ce3a3489f975d859c30d2bb694cdb53f6040c6ca8e35ce02cee8e1"
+    },
+    {
+      "adapter": "semantic_0",
+      "step": 16,
+      "sha256": "16ad9bf0424f92643a1050f7194b9f1515bc21dc33619bdae19106cf58b705de"
+    },
+    {
+      "adapter": "semantic_0",
+      "step": 2,
+      "sha256": "46cd9bb236f5dfc3675bbb5013e28cc651a5bb4939e92df54d3d74b2d87e088b"
+    },
+    {
+      "adapter": "semantic_0",
+      "step": 32,
+      "sha256": "0fa4dec5a32d59a8f786e6920746152a1dbda2b8e14b2292dcd8b81be3d9007e"
+    },
+    {
+      "adapter": "semantic_1",
+      "step": 16,
+      "sha256": "a4a3dbdfc80c411b2b26bce211dd7ad5ad3b9a2548c16bec578b0e8033953d40"
+    },
+    {
+      "adapter": "semantic_1",
+      "step": 2,
+      "sha256": "6f27c4c3c981ff3491a9cc3214959cc934a01563968f804cb9f72bb2c87a442f"
+    },
+    {
+      "adapter": "semantic_1",
+      "step": 32,
+      "sha256": "f6c07e62237784b73e9a3e62dd5ecc3761fa58715ca976ff21e6deb626596fb2"
+    },
+    {
+      "adapter": "semantic_2",
+      "step": 16,
+      "sha256": "a8615e0ccc22b612a9148199d70963c18659dc91eddc74c00312efcae6d60272"
+    },
+    {
+      "adapter": "semantic_2",
+      "step": 2,
+      "sha256": "c2d8e15d3ff39a2e08a971fafca0c76acd4c8a53777df092afdb2cf75dd94a28"
+    },
+    {
+      "adapter": "semantic_2",
+      "step": 32,
+      "sha256": "ae215bd53d15d754c456b11ed05afe002432aa53d724a9311410583ddadefee5"
+    },
+    {
+      "adapter": "semantic_3",
+      "step": 16,
+      "sha256": "65c8982d3d512ab33f300fb70c5269b595a2f1e5b6f09f69faaaa0770b687394"
+    },
+    {
+      "adapter": "semantic_3",
+      "step": 2,
+      "sha256": "9b48a0f2ef9baa87869f01e4f10482a14634008ac93d2e280be21fe9c7bcb4e1"
+    },
+    {
+      "adapter": "semantic_3",
+      "step": 32,
+      "sha256": "66106a37311e2540a1e3487b61b96f333ffb74196c85409426efaf6a86833e03"
+    },
+    {
+      "adapter": "semantic_4",
+      "step": 16,
+      "sha256": "e65e8c3e42f6373f5c25d12ba5a1cbff89cce525e725b8539ce00c81f87db3cf"
+    },
+    {
+      "adapter": "semantic_4",
+      "step": 2,
+      "sha256": "462cab8b3b5e386d5e212348b268dc188c67853d74522bf5ce6cb8f7614a6201"
+    },
+    {
+      "adapter": "semantic_4",
+      "step": 32,
+      "sha256": "9f43b799f3064da1d2b8f5efbe8b544660c900b4512b09d54271ac2695c4230e"
+    },
+    {
+      "adapter": "weighted",
+      "step": 10,
+      "sha256": "4ca65c5688fec33dc5b8181c1a432898f1fcbf407531a916a965e8ca5d8416f8"
+    },
+    {
+      "adapter": "weighted",
+      "step": 160,
+      "sha256": "d5812f5eb7342012e568d2b1c2c89a9142b11eb7b071502d89e27130ed8952df"
+    },
+    {
+      "adapter": "weighted",
+      "step": 80,
+      "sha256": "95f39014c565af0b54f0d1b6084155af3152ab54b3739a02e6d49009238293cf"
+    },
+    {
+      "adapter": "wide_0",
+      "step": 32,
+      "sha256": "fab55b7bb582522c9289313b52e081dae151f0183b5efce392be5842e5b28f71"
+    },
+    {
+      "adapter": "wide_1",
+      "step": 32,
+      "sha256": "af462dd9965865c05b49e6e77fcf37327a257386d86f88e62d76180d61933b8c"
+    }
+  ],
+  "missing_adapters": [
+    "wide_2",
+    "wide_3",
+    "wide_4"
+  ]
+}
