@@ -1,6 +1,6 @@
 # 多 LoRA 草稿模型投机推理预实验
 
-> **研究进度更新（2026-10-18）**：仓库原有根目录文件和 2026-10-17 发布的 `seed42-snapshot.tar.gz` 是第一版的固定快照。新增的 [当前研究协议](RESEARCH_PROGRAM_CURRENT.md)、[第二版五任务代码和独立协议](experiments/v2-routing/program.md)、[第二版结果交接](reports/v2-routing/handoff.md) 及 [第三版拒绝预测／预算路由试验](experiments/v3-async-budget/RESULTS.md) 是后续独立工件；不会改写原快照的 P0 哈希。第二版因在线净时延 P3 未通过而停止；第三版仅发现离线拒绝预测信号，分支和预算专家策略未证明加速，也没有执行真实 WAN 或 RL 训练。第三版原始逐请求诊断与有界迭代记录同仓保存。
+> **研究进度更新（2026-10-18）**：仓库原有根目录文件和 2026-10-17 发布的 `seed42-snapshot.tar.gz` 是第一版的固定快照。新增的 [当前研究协议](RESEARCH_PROGRAM_CURRENT.md)、[第二版五任务代码和独立协议](experiments/v2-routing/program.md)、[第二版结果交接](reports/v2-routing/handoff.md)、[第二版选中权重与教师数据备份](artifacts/README.md) 及 [第三版拒绝预测／预算路由试验](experiments/v3-async-budget/RESULTS.md) 是后续独立工件；不会改写原快照的 P0 哈希。第二版因在线净时延 P3 未通过而停止；第三版仅发现离线拒绝预测信号，分支和预算专家策略未证明加速，也没有执行真实 WAN 或 RL 训练。第三版原始逐请求诊断与有界迭代记录同仓保存。
 
 Qwen3-0.6B / Qwen3-4B 草稿主干、领域 LoRA 与混合领域 LoRA 的 seed42 预实验。目标模型为 Qwen3-8B。本仓库是可追溯的实验快照，包含训练、教师数据、选模、专家接受矩阵、路由和真实 greedy 投机解码代码。
 
