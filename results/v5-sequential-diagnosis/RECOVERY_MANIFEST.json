@@ -1,0 +1,70 @@
+{
+  "state": "partial_handoff_after_AutoDL_disconnect",
+  "created_utc": "2026-10-18T09:32:13.563509+00:00",
+  "completed_stages": [
+    1,
+    2,
+    3
+  ],
+  "remote_trained_adapters": 27,
+  "locally_verified_adapters": [
+    "mismatch_0",
+    "mismatch_1",
+    "mismatch_2",
+    "mismatch_3",
+    "mismatch_4",
+    "pooled",
+    "random_0",
+    "random_1",
+    "random_2",
+    "random_3",
+    "random_4",
+    "rank32_0",
+    "rank32_1",
+    "rank32_2",
+    "rank32_3",
+    "rank32_4",
+    "semantic_0",
+    "semantic_1",
+    "semantic_2",
+    "semantic_3",
+    "semantic_4",
+    "weighted",
+    "wide_0",
+    "wide_1"
+  ],
+  "missing_local_adapters": [
+    "wide_2",
+    "wide_3",
+    "wide_4"
+  ],
+  "archives": {
+    "v5-initial.tar.gz": {
+      "bytes": 598589524,
+      "sha256": "e8ad7471d8d640d2b86b3508f41290587ea647f27d79a60af9cfc6d4fcef67bf",
+      "verified_local": true
+    },
+    "v5-evidence-now.tar.gz": {
+      "bytes": 3062176,
+      "sha256": "09cb2fe7ff94fb56d74204b68c5b41ff0440b873f60b56aef729068f9d9761b2",
+      "verified_local": true
+    }
+  },
+  "delta": {
+    "remote_path": "/root/autodl-tmp/sd-lora-preexp/exports/v5-recovery/v5-delta.tar.gz",
+    "expected_bytes": 220559614,
+    "expected_sha256": "087b17e0f85abc3aee94f66f96dfc3f4640acea29d44f5423ec8b48ba2c673a4",
+    "local_bytes": 39288832,
+    "verified": false
+  },
+  "remaining": [
+    "recover remote delta or explicitly retrain missing capacity adapters",
+    "complete stage4 validation and evaluation",
+    "15 online token-exact correctness comparisons",
+    "relocation-aware integrity audit and final report"
+  ],
+  "remote_stop_command_delivered": false,
+  "original_source_commit": "6935c6d75274c082605284852f575b2adeed48ec",
+  "binding": "52f57e38f3f52aa3d7e20a7425c3cc9a6ac47d4f429906b23821ae42166fc5d2",
+  "candidate_decision": "not_promoted: primary routed improvement versus MIX80 is negative; final guard not run"
+}

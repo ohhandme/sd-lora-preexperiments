@@ -1,0 +1,4290 @@
+{
+  "mismatch": {
+    "16": {
+      "all_early_reject_windows": 37,
+      "different_acceptance_windows": 21,
+      "expert_means": [
+        3.7857142857142856,
+        4.020408163265306,
+        4.163265306122449,
+        4.030612244897959,
+        4.112244897959184
+      ],
+      "fixed": 4.163265306122449,
+      "fixed_index": 2,
+      "per_expert_better_windows": [
+        2,
+        2,
+        3,
+        7,
+        7
+      ],
+      "per_expert_changed_acceptance_windows": [
+        11,
+        4,
+        5,
+        13,
+        14
+      ],
+      "per_expert_worse_windows": [
+        9,
+        2,
+        2,
+        6,
+        7
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 2.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 2.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.612244897959184,
+      "removal_losses": [
+        0.16326530612244897,
+        0.0,
+        0.0,
+        0.04081632653061224,
+        0.0
+      ],
+      "request_oracle": 4.612244897959184,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 3,
+      "windows": 82
+    },
+    "2": {
+      "all_early_reject_windows": 42,
+      "different_acceptance_windows": 9,
+      "expert_means": [
+        4.0,
+        4.173469387755102,
+        4.183673469387755,
+        3.938775510204082,
+        4.142857142857143
+      ],
+      "fixed": 4.183673469387755,
+      "fixed_index": 2,
+      "per_expert_better_windows": [
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "per_expert_changed_acceptance_windows": [
+        2,
+        1,
+        3,
+        4,
+        2
+      ],
+      "per_expert_worse_windows": [
+        2,
+        0,
+        1,
+        3,
+        1
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.326530612244898,
+      "removal_losses": [
+        0.0,
+        0.0,
+        0.061224489795918366,
+        0.030612244897959183,
+        0.061224489795918366
+      ],
+      "request_oracle": 4.326530612244898,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 3,
+      "windows": 82
+    },
+    "32": {
+      "all_early_reject_windows": 36,
+      "different_acceptance_windows": 23,
+      "expert_means": [
+        4.020408163265306,
+        3.9183673469387754,
+        3.7857142857142856,
+        4.020408163265306,
+        4.255102040816326
+      ],
+      "fixed": 4.255102040816326,
+      "fixed_index": 4,
+      "per_expert_better_windows": [
+        3,
+        3,
+        2,
+        5,
+        6
+      ],
+      "per_expert_changed_acceptance_windows": [
+        9,
+        11,
+        7,
+        10,
+        11
+      ],
+      "per_expert_worse_windows": [
+        6,
+        8,
+        5,
+        5,
+        5
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 2.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 0.0,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 2.5,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 0.5,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.683673469387755,
+      "removal_losses": [
+        0.0,
+        0.08163265306122448,
+        0.05102040816326531,
+        0.08163265306122448,
+        0.19387755102040816
+      ],
+      "request_oracle": 4.683673469387755,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 8,
+      "windows": 82
+    }
+  },
+  "pooled": {
+    "10": {
+      "all_early_reject_windows": 45,
+      "different_acceptance_windows": 0,
+      "expert_means": [
+        4.163265306122449
+      ],
+      "fixed": 4.163265306122449,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        2
+      ],
+      "per_expert_changed_acceptance_windows": [
+        4
+      ],
+      "per_expert_worse_windows": [
+        2
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.163265306122449,
+      "removal_losses": [],
+      "request_oracle": 4.163265306122449,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 82,
+      "windows": 82
+    },
+    "160": {
+      "all_early_reject_windows": 44,
+      "different_acceptance_windows": 0,
+      "expert_means": [
+        4.122448979591836
+      ],
+      "fixed": 4.122448979591836,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        5
+      ],
+      "per_expert_changed_acceptance_windows": [
+        11
+      ],
+      "per_expert_worse_windows": [
+        6
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 2.0,
+          "prefix_oracle": 2.0,
+          "request_oracle": 2.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 0.5,
+          "prefix_oracle": 0.5,
+          "request_oracle": 0.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.122448979591836,
+      "removal_losses": [],
+      "request_oracle": 4.122448979591836,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 82,
+      "windows": 82
+    },
+    "80": {
+      "all_early_reject_windows": 42,
+      "different_acceptance_windows": 0,
+      "expert_means": [
+        4.346938775510204
+      ],
+      "fixed": 4.346938775510204,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        7
+      ],
+      "per_expert_changed_acceptance_windows": [
+        11
+      ],
+      "per_expert_worse_windows": [
+        4
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 1.5,
+          "prefix_oracle": 1.5,
+          "request_oracle": 1.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.346938775510204,
+      "removal_losses": [],
+      "request_oracle": 4.346938775510204,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 82,
+      "windows": 82
+    }
+  },
+  "random": {
+    "16": {
+      "all_early_reject_windows": 35,
+      "different_acceptance_windows": 20,
+      "expert_means": [
+        4.173469387755102,
+        4.346938775510204,
+        4.030612244897959,
+        4.030612244897959,
+        3.795918367346939
+      ],
+      "fixed": 4.346938775510204,
+      "fixed_index": 1,
+      "per_expert_better_windows": [
+        2,
+        6,
+        3,
+        2,
+        3
+      ],
+      "per_expert_changed_acceptance_windows": [
+        4,
+        10,
+        7,
+        5,
+        12
+      ],
+      "per_expert_worse_windows": [
+        2,
+        4,
+        4,
+        3,
+        9
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 1.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.704081632653061,
+      "removal_losses": [
+        0.05102040816326531,
+        0.22448979591836735,
+        0.04081632653061224,
+        0.0,
+        0.1326530612244898
+      ],
+      "request_oracle": 4.704081632653061,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 8,
+      "windows": 82
+    },
+    "2": {
+      "all_early_reject_windows": 42,
+      "different_acceptance_windows": 8,
+      "expert_means": [
+        4.122448979591836,
+        4.030612244897959,
+        3.9693877551020407,
+        4.142857142857143,
+        3.9591836734693877
+      ],
+      "fixed": 4.142857142857143,
+      "fixed_index": 3,
+      "per_expert_better_windows": [
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "per_expert_changed_acceptance_windows": [
+        2,
+        4,
+        6,
+        2,
+        4
+      ],
+      "per_expert_worse_windows": [
+        1,
+        2,
+        3,
+        1,
+        3
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 2.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.3061224489795915,
+      "removal_losses": [
+        0.0,
+        0.09183673469387756,
+        0.030612244897959183,
+        0.0,
+        0.0
+      ],
+      "request_oracle": 4.3061224489795915,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 3,
+      "windows": 82
+    },
+    "32": {
+      "all_early_reject_windows": 37,
+      "different_acceptance_windows": 19,
+      "expert_means": [
+        4.173469387755102,
+        4.408163265306122,
+        3.8877551020408165,
+        3.9693877551020407,
+        3.9489795918367347
+      ],
+      "fixed": 4.408163265306122,
+      "fixed_index": 1,
+      "per_expert_better_windows": [
+        4,
+        7,
+        3,
+        2,
+        1
+      ],
+      "per_expert_changed_acceptance_windows": [
+        8,
+        9,
+        9,
+        7,
+        5
+      ],
+      "per_expert_worse_windows": [
+        4,
+        2,
+        6,
+        5,
+        4
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.571428571428571,
+      "removal_losses": [
+        0.061224489795918366,
+        0.12244897959183673,
+        0.04081632653061224,
+        0.0,
+        0.0
+      ],
+      "request_oracle": 4.530612244897959,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 5,
+      "windows": 82
+    }
+  },
+  "semantic": {
+    "16": {
+      "all_early_reject_windows": 40,
+      "different_acceptance_windows": 15,
+      "expert_means": [
+        4.1938775510204085,
+        4.204081632653061,
+        4.1938775510204085,
+        4.163265306122449,
+        4.0
+      ],
+      "fixed": 4.204081632653061,
+      "fixed_index": 1,
+      "per_expert_better_windows": [
+        3,
+        2,
+        4,
+        5,
+        2
+      ],
+      "per_expert_changed_acceptance_windows": [
+        5,
+        3,
+        6,
+        8,
+        8
+      ],
+      "per_expert_worse_windows": [
+        2,
+        1,
+        2,
+        3,
+        6
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.428571428571429,
+      "removal_losses": [
+        0.0,
+        0.0,
+        0.01020408163265306,
+        0.02040816326530612,
+        0.061224489795918366
+      ],
+      "request_oracle": 4.428571428571429,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 3,
+      "windows": 82
+    },
+    "2": {
+      "all_early_reject_windows": 40,
+      "different_acceptance_windows": 9,
+      "expert_means": [
+        4.142857142857143,
+        4.071428571428571,
+        4.153061224489796,
+        4.214285714285714,
+        4.183673469387755
+      ],
+      "fixed": 4.214285714285714,
+      "fixed_index": 3,
+      "per_expert_better_windows": [
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "per_expert_changed_acceptance_windows": [
+        1,
+        2,
+        3,
+        2,
+        4
+      ],
+      "per_expert_worse_windows": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.438775510204081,
+      "removal_losses": [
+        0.0,
+        0.0,
+        0.061224489795918366,
+        0.04081632653061224,
+        0.15306122448979592
+      ],
+      "request_oracle": 4.438775510204081,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 5,
+      "windows": 82
+    },
+    "32": {
+      "all_early_reject_windows": 35,
+      "different_acceptance_windows": 20,
+      "expert_means": [
+        4.316326530612245,
+        3.979591836734694,
+        4.142857142857143,
+        4.153061224489796,
+        4.122448979591836
+      ],
+      "fixed": 4.316326530612245,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        6,
+        4,
+        2,
+        3,
+        3
+      ],
+      "per_expert_changed_acceptance_windows": [
+        9,
+        9,
+        4,
+        5,
+        7
+      ],
+      "per_expert_worse_windows": [
+        3,
+        5,
+        2,
+        2,
+        4
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 2.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 5.5,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 1.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.663265306122449,
+      "removal_losses": [
+        0.21428571428571427,
+        0.0,
+        0.061224489795918366,
+        0.04081632653061224,
+        0.061224489795918366
+      ],
+      "request_oracle": 4.663265306122449,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 7,
+      "windows": 82
+    }
+  },
+  "weighted": {
+    "10": {
+      "all_early_reject_windows": 44,
+      "different_acceptance_windows": 0,
+      "expert_means": [
+        4.183673469387755
+      ],
+      "fixed": 4.183673469387755,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        2
+      ],
+      "per_expert_changed_acceptance_windows": [
+        3
+      ],
+      "per_expert_worse_windows": [
+        1
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.183673469387755,
+      "removal_losses": [],
+      "request_oracle": 4.183673469387755,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 82,
+      "windows": 82
+    },
+    "160": {
+      "all_early_reject_windows": 44,
+      "different_acceptance_windows": 0,
+      "expert_means": [
+        4.112244897959184
+      ],
+      "fixed": 4.112244897959184,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        8
+      ],
+      "per_expert_changed_acceptance_windows": [
+        17
+      ],
+      "per_expert_worse_windows": [
+        9
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 1.5,
+          "prefix_oracle": 1.5,
+          "request_oracle": 1.5
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 1.5,
+          "prefix_oracle": 1.5,
+          "request_oracle": 1.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 2.0,
+          "prefix_oracle": 2.0,
+          "request_oracle": 2.0
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 0.5,
+          "prefix_oracle": 0.5,
+          "request_oracle": 0.5
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 0.5,
+          "prefix_oracle": 0.5,
+          "request_oracle": 0.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.112244897959184,
+      "removal_losses": [],
+      "request_oracle": 4.112244897959184,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 82,
+      "windows": 82
+    },
+    "80": {
+      "all_early_reject_windows": 41,
+      "different_acceptance_windows": 0,
+      "expert_means": [
+        4.357142857142857
+      ],
+      "fixed": 4.357142857142857,
+      "fixed_index": 0,
+      "per_expert_better_windows": [
+        7
+      ],
+      "per_expert_changed_acceptance_windows": [
+        11
+      ],
+      "per_expert_worse_windows": [
+        4
+      ],
+      "per_request": {
+        "code:118224:3f0ccffb94c79e248f8d9cf79306f067b1c09900f48a4c555759601233e1ce58": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:140364:f80c0df07615a89eaaf206c6b6ce7e0d40a11dc93e539263eba7b50334b8257f": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:143969:d8142df5ffbb9ac1d8be9ea3e63adc1192a1f6b2e816eae45b9d26f204561f1a": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148153:a01368f6a845aa3579ae993c92492c49013234e36a426ee5a1c1c5f36307c83f": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "code:148293:dc4e551abad656512f6a967c35cb8db4e083d183d08fcdb6542d36406931f71a": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "code:18160:beaa5348466977557da00ee1ff8f050bb2adec258ccccd29c78d244ba79168a9": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:6642:41bc39adc004c7019b8f6846a97d20a58cba102180c2d4e884e7871330b12670": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "code:89871:867df9fa4344b587ba17441658dcecbbd1b6b6eb43b243c787c46fc91afad630": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "code:921:fd449ecabbfc888a2008e3dfcbaad930409392f0ba04b722b98ced5a96a53b5a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "code:93899:15df8c1ee9def536308b9672c7f5e7d1d42ba7889672e5319532b56ce1f54f68": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "math:1047:24302439b3cde0f2d7beb69a1a72ef3d6d0d66a41afe378684d3b6573892ec11": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "math:1082:28ea52c70c4d3137ede02e4099b616ce88025668a5b926838d08a30681f89cf8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2223:479fbbbbb8f8e1f874a06f0d3575a3241abb495778caab4a34f765343cc859a5": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:2672:670414622d9a245a7bc876afed4ad7eeb12051ccdadb7fc0a8e9e4a6dac86e4a": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "math:3185:87a8bdcad45d65b9e91e0d5242c0ba2130d5d94581814195d2c3008124578ff6": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "math:483:f37fedbcb374f7f46418a53c86a6f847653e428c5443289fa8c9bf7881634e0f": {
+          "fixed": 7.5,
+          "prefix_oracle": 7.5,
+          "request_oracle": 7.5
+        },
+        "math:4951:cfba2d165ba0c6f45d2c84d95b9ba584964e5fc1c282d75cf26b751408569d2a": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "math:5866:41496452f076281b869882abfd8190240f60d809d1c9a08305b92a08035ba7fa": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "math:6771:89f84950bf06aa79b35de06a2c78ecbff559da038b7ac635c4561eb0ee9aa512": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "math:7044:d81ce3ac5783679bd9ad87a5faef625a10ee6da7ce247b8818edfcbe46fae286": {
+          "fixed": 6.5,
+          "prefix_oracle": 6.5,
+          "request_oracle": 6.5
+        },
+        "qa:17185:6a58f5402df4762952448766e5caf53daa15fb609cca706870b8ffbf92cbe0fb": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:18406:311d61a01805c7815c582c985e68bf70d7db0574239bcdb7569f1e1fdb6e2fa7": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:22556:7c071774214cbc26b654d2f8dad79885bd86608dbe1f2206e0bf0ca344063f38": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:24433:540c791e481a7adfefe4ada5b5b3e34c7d00e9d540e4af358ba7cf7f2a534fa8": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:37724:1303a32b3ef31e1ad722508acb914f2fa1bd46ee4c236ccb770a2a6e09627ee7": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "qa:53317:363f624c9a6041d25699c4a0396fb74e205dc767b0a13851ece8ff0510249522": {
+          "fixed": 5.5,
+          "prefix_oracle": 5.5,
+          "request_oracle": 5.5
+        },
+        "qa:54493:ac728f397c88654e36c3a4cda9701e4425c74905f64f6ed4efb5c2ba283ad606": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "qa:63494:857fc680fcfb80805635785d3d8d62cefa61d894f6aecd943ac5b514e2daf6f7": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "qa:78691:af909416a78584e4c71cf5c3d09aacb2ce8ed033b8c94b90aad32155a1cbfb5e": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "qa:8891:1474a47c05aa2903e8e7f4e40b19fe06c80c7f2c1143d80b1039d9d8d25875ba": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:0735f8b1ca990488367b182fc186e343e6a294c0:1e52209ecf87dcdc3337597a19770eb44774228eb4334470edb4b1aaae040aa3": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "summary:26cc05379df083d66e39c334ce227ea66614f3db:0b0a8f0bcb1ee15b05b38380c7cc583daec495513fc3d407747dba44ce605bee": {
+          "fixed": 2.5,
+          "prefix_oracle": 2.5,
+          "request_oracle": 2.5
+        },
+        "summary:3ed93889d750950350f966867c5617db684c1840:c3d9fab50167b6652d3ed080665404dff6d0ab66c330c560a21399eb124bf612": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:40e2f0c538b12a882c33abcd9ae9ee2cb482bbbc:b9193bc8bbe2fe3775b51d9529d6cf3f3c42fb525460fa995975ca7b1c59df28": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "summary:538e5d3801e19cc370a44925bf6f5527f64394b4:273401a9bf22a4c89728fdcbe45e73b8ff098aa5f2e2ea73eb50241ec652ad03": {
+          "fixed": 5.0,
+          "prefix_oracle": 5.0,
+          "request_oracle": 5.0
+        },
+        "summary:c3603bccdbc57e5af34ddfc360b282a71a0ba034:24cb88f3b6e9151da3c338f071d8ebf11b166dcab4e1dc17b387b00cb24c6775": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "summary:ce9b47bb52ee0583e9cfc69e7d6e1b3e178be864:5096e1d1637905293bb008430d7a66cf936cf8f0995158b9801db4858cf91257": {
+          "fixed": 1.0,
+          "prefix_oracle": 1.0,
+          "request_oracle": 1.0
+        },
+        "summary:df6d1afaa90c2ddf043497f0335ee625b8b0d9fa:e1398888d1df06056b1081786e97a042179d16cea3780167a29f9409747dbb6a": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "summary:e0067b5ef44adcc6dde4de049393470ea7d0a73c:3170711036440aa053d4e7a17d902d7e9890fc7733f0cc074b22683eb89abdd5": {
+          "fixed": 3.5,
+          "prefix_oracle": 3.5,
+          "request_oracle": 3.5
+        },
+        "summary:fda425fd7a85b8b4e386f5317c6697ee2d0af75c:73ad0d137e3e13f66f7d817453ca0e8f7b954515f2af4f5e89a5a2556f4ab428": {
+          "fixed": 4.5,
+          "prefix_oracle": 4.5,
+          "request_oracle": 4.5
+        },
+        "translation:1364430:fdb0e7655df22b0bf917879882a3ed7f228da53a09805065da47b72f27f42cdd": {
+          "fixed": 4.0,
+          "prefix_oracle": 4.0,
+          "request_oracle": 4.0
+        },
+        "translation:1470299:82dcd3bfc1b51a18db42a478d2a0f4ce35dc17beeb9e75545ded05a32e4df33e": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:371582:031dbfd91812bd22e4d91231d6482ecb4ac92a671cd55fdd2fda974d76d5e08f": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:390646:88b2244e6b1222229638b78a897e617b26d31e1b545f48ac0066309906dc1c6c": {
+          "fixed": 8.0,
+          "prefix_oracle": 8.0,
+          "request_oracle": 8.0
+        },
+        "translation:410580:f0054883f9b2f34071d571fa74a2689b4dde28c8e4d4776f2641c4af0efd6fd6": {
+          "fixed": 0.0,
+          "prefix_oracle": 0.0,
+          "request_oracle": 0.0
+        },
+        "translation:418103:3343144593b1b7ba11a4e8411ae6598c6c2f07393c0879a92ac701c750b29eaf": {
+          "fixed": 7.0,
+          "prefix_oracle": 7.0,
+          "request_oracle": 7.0
+        },
+        "translation:624963:fa423823bb9c199a3031bbcfe3667374bad5c11200d46f0aa92aa427b3906ed0": {
+          "fixed": 6.0,
+          "prefix_oracle": 6.0,
+          "request_oracle": 6.0
+        },
+        "translation:781358:1eef6dd544d2c8aa8cfe2d5976218de3b2e11296857131a3438ad9954c80c52f": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        },
+        "translation:915371:af12b8542a2cead24f8093de65e132cfd7ee6adcbf07c5302dbcfd25fda07840": {
+          "fixed": 3.0,
+          "prefix_oracle": 3.0,
+          "request_oracle": 3.0
+        }
+      },
+      "prefix_oracle": 4.357142857142857,
+      "removal_losses": [],
+      "request_oracle": 4.357142857142857,
+      "requests": 49,
+      "suffix_limit": "Proposals stop after first rejection; full rejected suffix diversity is not measured.",
+      "unique_best_windows": 82,
+      "windows": 82
+    }
+  }
+}

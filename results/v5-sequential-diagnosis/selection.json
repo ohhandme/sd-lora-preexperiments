@@ -1,0 +1,27 @@
+{
+  "mismatch": {
+    "fixed": 4,
+    "reason": "validation prefix Oracle, earlier checkpoint on ties",
+    "step": 32
+  },
+  "pooled": {
+    "fixed": 0,
+    "reason": "validation prefix Oracle, earlier checkpoint on ties",
+    "step": 80
+  },
+  "random": {
+    "fixed": 1,
+    "reason": "validation prefix Oracle, earlier checkpoint on ties",
+    "step": 16
+  },
+  "semantic": {
+    "fixed": 0,
+    "reason": "validation prefix Oracle, earlier checkpoint on ties",
+    "step": 32
+  },
+  "weighted": {
+    "fixed": 0,
+    "reason": "validation prefix Oracle, earlier checkpoint on ties",
+    "step": 80
+  }
+}
