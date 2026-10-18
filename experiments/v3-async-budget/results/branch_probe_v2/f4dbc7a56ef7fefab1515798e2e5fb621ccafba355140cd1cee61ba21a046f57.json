@@ -1,0 +1,26 @@
+{
+  "actual_accepted": 8,
+  "branch_generated": false,
+  "branch_ms": 0.0,
+  "domain": "math",
+  "draft_main_ms": 262.9359858110547,
+  "id": "math:6274:87e09017b85d3ff77dc374f2c4a9fbe7ecad11f0036ed9fc84b014dc7b92bdb9",
+  "position": 32,
+  "predicted_exact": true,
+  "predicted_rejection_position": 8,
+  "proposal": [
+    279,
+    22351,
+    26938,
+    382,
+    44364,
+    14374,
+    3070,
+    8304
+  ],
+  "reused_suffix_tokens": 0,
+  "root_hit": false,
+  "state": "complete",
+  "target_correction": null,
+  "top2_at_prediction": null
+}

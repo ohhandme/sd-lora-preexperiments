@@ -1,0 +1,176 @@
+{
+  "L": 8,
+  "at": "2026-10-17T17:35:10.383080+00:00",
+  "binding": "9a0b7c34572f88fd92e8232c8da25d2dbd7c5e09bd705532c00f210813375a34",
+  "caveat": "Oracle is offline retrospective acceptance only; no online speed or cost gate measured.",
+  "complete_requests": 240,
+  "completed_entries": 1920,
+  "excluded_short_response": 2,
+  "expected_entries": 1920,
+  "expected_requests": 240,
+  "fixed_best": "math",
+  "means": {
+    "BASE": {
+      "by_domain": {
+        "code": 4.1,
+        "math": 4.539583333333334,
+        "qa": 3.1753472222222223,
+        "summary": 2.0635416666666666,
+        "translation": 3.130434782608696
+      },
+      "macro": 3.40406162464986
+    },
+    "DOMAIN": {
+      "by_domain": {
+        "code": 4.595833333333333,
+        "math": 5.470486111111111,
+        "qa": 3.2871527777777776,
+        "summary": 2.4090277777777778,
+        "translation": 3.130434782608696
+      },
+      "macro": 3.784033613445378
+    },
+    "FIXEDBEST": {
+      "by_domain": {
+        "code": 4.379166666666666,
+        "math": 5.470486111111111,
+        "qa": 3.243402777777778,
+        "summary": 1.9760416666666667,
+        "translation": 3.1956521739130435
+      },
+      "macro": 3.6567927170868346
+    },
+    "ORACLE": {
+      "by_domain": {
+        "code": 4.891666666666667,
+        "math": 5.661111111111111,
+        "qa": 3.634375,
+        "summary": 2.6600694444444444,
+        "translation": 3.3043478260869565
+      },
+      "macro": 4.03641456582633
+    },
+    "code": {
+      "by_domain": {
+        "code": 4.595833333333333,
+        "math": 4.777430555555555,
+        "qa": 3.094097222222222,
+        "summary": 2.0597222222222222,
+        "translation": 3.2065217391304346
+      },
+      "macro": 3.549579831932773
+    },
+    "math": {
+      "by_domain": {
+        "code": 4.379166666666666,
+        "math": 5.470486111111111,
+        "qa": 3.243402777777778,
+        "summary": 1.9760416666666667,
+        "translation": 3.1956521739130435
+      },
+      "macro": 3.6567927170868346
+    },
+    "mix16": {
+      "by_domain": {
+        "code": 4.479166666666667,
+        "math": 5.317013888888889,
+        "qa": 3.4295138888888888,
+        "summary": 2.332638888888889,
+        "translation": 3.2282608695652173
+      },
+      "macro": 3.761764705882353
+    },
+    "mix80": {
+      "by_domain": {
+        "code": 4.554166666666666,
+        "math": 5.455902777777778,
+        "qa": 3.3635416666666664,
+        "summary": 2.2090277777777776,
+        "translation": 3.358695652173913
+      },
+      "macro": 3.79187675070028
+    },
+    "qa": {
+      "by_domain": {
+        "code": 4.370833333333334,
+        "math": 4.480555555555555,
+        "qa": 3.2871527777777776,
+        "summary": 2.1180555555555554,
+        "translation": 3.217391304347826
+      },
+      "macro": 3.4971288515406163
+    },
+    "summary": {
+      "by_domain": {
+        "code": 3.9625,
+        "math": 4.49375,
+        "qa": 3.1375,
+        "summary": 2.4090277777777778,
+        "translation": 3.130434782608696
+      },
+      "macro": 3.4291316526610642
+    },
+    "translation": {
+      "by_domain": {
+        "code": 4.295833333333333,
+        "math": 4.598263888888889,
+        "qa": 3.180902777777778,
+        "summary": 2.115625,
+        "translation": 3.130434782608696
+      },
+      "macro": 3.467016806722689
+    }
+  },
+  "paired": {
+    "DOMAIN_minus_mix16": {
+      "bootstrap_repeats": 2000,
+      "ci95": [
+        -0.07030812324929975,
+        0.1102941176470588
+      ],
+      "mean": 0.0222689075630252,
+      "n": 238
+    },
+    "DOMAIN_minus_mix80": {
+      "bootstrap_repeats": 2000,
+      "ci95": [
+        -0.15308123249299718,
+        0.12829131652661063
+      ],
+      "mean": -0.007843137254901971,
+      "n": 238
+    },
+    "ORACLE_minus_FIXEDBEST": {
+      "bootstrap_repeats": 2000,
+      "ci95": [
+        0.27794117647058825,
+        0.492997198879552
+      ],
+      "mean": 0.3796218487394958,
+      "n": 238
+    },
+    "ORACLE_minus_mix16": {
+      "bootstrap_repeats": 2000,
+      "ci95": [
+        0.1878851540616247,
+        0.36540616246498603
+      ],
+      "mean": 0.27464985994397756,
+      "n": 238
+    },
+    "ORACLE_minus_mix80": {
+      "bootstrap_repeats": 2000,
+      "ci95": [
+        0.09306722689075633,
+        0.3872549019607843
+      ],
+      "mean": 0.2445378151260504,
+      "n": 238
+    }
+  },
+  "partition": "adapter_val",
+  "qualified_requests": 238,
+  "quality_headroom_only": true,
+  "scale": "0.6B",
+  "state": "complete"
+}

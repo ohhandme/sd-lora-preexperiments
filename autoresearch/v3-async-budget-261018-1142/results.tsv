@@ -1,0 +1,4 @@
+iteration	change	partition	metric	baseline	candidate	decision	reason
+1	Domain/expert/history rejection hazard vs marginal and history	request-disjoint router_train holdout	Brier early4	0.244488	0.217648	keep_diagnostic	Paired request improvement 0.043613 CI [0.016865,0.070701]; public-prefix proxy only
+2	Top2 correction branch at predicted rejection position	75 preselected holdout requests	root hits / generated branches	0	2/34	stop_branch	Only 4 suffix tokens reused; fresh-prefill branch cost 5.684 seconds; no net benefit demonstrated
+3	Prompt plus feedback budgeted expert selection	95 heldout requests / 342 windows	mean accepted tokens vs MIX80	3.880117	3.733918	stop_online	Request-paired delta -0.130351 CI [-0.289404,0.032522]; 24 switches

@@ -1,0 +1,63 @@
+{
+  "binding": "6368c2fd2b34533581acbb4ec4230686d2939831fea3a7f15457d8052a379050",
+  "diagnostic": {
+    "mean_a": 8.0,
+    "survival": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "windows": [
+      {
+        "a": 8,
+        "position": 0,
+        "proposal": [
+          1249,
+          1477,
+          279,
+          501,
+          3349,
+          315,
+          279,
+          5700
+        ]
+      },
+      {
+        "a": 8,
+        "position": 32,
+        "proposal": [
+          3349,
+          25,
+          1019,
+          256,
+          400,
+          25046,
+          256,
+          220
+        ]
+      },
+      {
+        "a": 8,
+        "position": 64,
+        "proposal": [
+          15,
+          284,
+          32882,
+          17,
+          15,
+          198,
+          256,
+          26107
+        ]
+      }
+    ]
+  },
+  "domain": "math",
+  "id": "math:1625:0e2c8fd62dcaafe30c69d9af3fecab6ee024b053fccee5a11d8bd0e4c74622bd",
+  "teacher_sha256": "63d5dca5d4fab54c517ad3015a67feae699afc4a6da200d1eebe9537c6a33997"
+}

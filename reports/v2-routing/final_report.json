@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-17T20:31:32.584756+00:00",
+  "state": "completed_with_preregistered_negative_P3_stop",
+  "protocol": "v2.0 section 2; five-task 0.6B multi-LoRA pilot; seed42",
+  "program_sha256": "a9476e17df858d0eeb8ade29f3eed9046ea6583732ff50d0a1d1a2d538e4ef00",
+  "pilot_manifest_sha256": "9542965d3fd3f1dda33cc189978576a65e61d24676a1b511f45f886ea43fede7",
+  "gate_outcomes": {
+    "P0v2": {
+      "state": "passed",
+      "evidence": "pinned assets, isolated pilot, BF16/tokenizer gate, batch8-vs-single full-token audits, separate v1/v2 hashes"
+    },
+    "P1": {
+      "state": "complete",
+      "teacher_records": 2120,
+      "trained_selected_adapters": 7,
+      "quality_entries": 1920,
+      "quality_requests": 240,
+      "quality_qualified_requests": 238
+    },
+    "P2": {
+      "state": "offline_headroom_positive_hardware_screen_only",
+      "oracle_minus_mix80_accepted_tokens": {
+        "bootstrap_repeats": 2000,
+        "ci95": [
+          0.09306722689075633,
+          0.3872549019607843
+        ],
+        "mean": 0.2445378151260504,
+        "n": 238
+      },
+      "oracle_minus_fixedbest_accepted_tokens": {
+        "bootstrap_repeats": 2000,
+        "ci95": [
+          0.27794117647058825,
+          0.492997198879552
+        ],
+        "mean": 0.3796218487394958,
+        "n": 238
+      },
+      "prompt_route_minus_mix80_val_tokens": -0.1020833333333333,
+      "switch_ms_median": 6.449059117585421,
+      "router_ms_mean": 0.7630678825080395,
+      "caveat": "Oracle uses future target outputs. The hardware screen is optimistic and does not establish a feasible speed gain."
+    },
+    "P3": {
+      "state": "negative",
+      "holdout_correctness": "40 router_val requests x 8 SD methods = 320 exact token/EOS/truncation matches, zero mismatch",
+      "candidate": "COST-UCB",
+      "candidate_geomean_vs_AR": 0.3564362918031423,
+      "candidate_ci95_vs_AR": [
+        0.3243081550716705,
+        0.39154289070177933
+      ],
+      "candidate_geomean_vs_MIX80": 0.9546742095227562,
+      "candidate_ci95_vs_MIX80": [
+        0.9129242687447985,
+        0.9901578484706798
+      ],
+      "meta_ucb_geomean_vs_MIX80": 0.9739634108660878,
+      "static_mix80_geomean_vs_AR": 0.3733590875795477,
+      "static_base_geomean_vs_AR": 0.4093128811947722,
+      "reason": "Candidate is slower than equal-data MIX80 and target AR on the paired pilot; its upper bootstrap bounds remain below 1.0. Stop under section 2.5 without unlocking P4."
+    },
+    "P4": {
+      "state": "not_unlocked",
+      "reason": "P3 negative gate",
+      "unrun": [
+        "full 5-task training set",
+        "seed43/44",
+        "three randomized timing repeats",
+        "locked final ID/external tasks",
+        "real WAN edge-cloud measurement",
+        "4B five-expert training"
+      ]
+    }
+  },
+  "measurement_scope": {
+    "GPU": "NVIDIA RTX 6000D, single card",
+    "L": 8,
+    "timing_repeats": 1,
+    "independent_AR_requests": 40,
+    "paired_SD_comparisons": 320,
+    "router_val_online_requests_per_method": 40
+  },
+  "interpretation": "A retrospective five-expert Oracle has acceptance headroom, but neither static prompt routing nor this MetaSD-inspired UCB baseline nor the tested cost-constrained feedback candidate converts it into local speedup. This is a negative pilot for the current implementation/configuration, not a universal refutation of speculative decoding or edge-cloud pipelining.",
+  "possible_decoder_bottleneck": "All SD methods including the untuned BASE are slower than target AR in this Python cached BF16 single-card implementation. This is compatible with decoder/Python/kernel overhead and sequential target/draft costs; no dedicated component CUDA profile isolates the cause, so it is not claimed as proven.",
+  "limitations": [
+    "40 requests (8 per task), one timing repeat",
+    "No independent training seed replication",
+    "NQ-Open is not full Natural Questions",
+    "Online holdout is disjoint from training/smoke but final ID/external test remains locked",
+    "Meta-UCB is MetaSD-inspired, not faithful MetaSD reproduction",
+    "Oracle is offline only",
+    "No true WAN/edge-cloud measurement"
+  ],
+  "artifacts_sha256": {
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/final_audit.json": "d2ba6ca6ee4111fa2a504190c6489b137281b9e9da85ffd7092b498ea8447177",
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/quality/summary.json": "131a232333dfd34f8b65199704a47d6ac1c95ad17420ad58b9d724bd8e52ab44",
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/routing/summary.json": "9363009bbd9ba5656b0fa50aecba8d6d9e343f62b9bbbd85e9db482592c35d35",
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/cost_gate/summary.json": "7b5f97cd6fdad92979492f1b4d739bc7959283318ba9e04a3e12918d03b501d1",
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/online_pilot/summary.json": "538894896fc7eae066514e0114580193a9c43af1e339ca6d56be7243cb6eae59",
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/online_pilot/feedback_summary.json": "22351b1fd79adf738bb2389ec4431e2bb9472c249fdba0ba6506eaa75c7f8da7",
+    "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/online_pilot/subset_manifest.json": "08e0c5efb0f51c249bc53a49e550a0222d601f09f2657c9c7791133009c555f1"
+  },
+  "gpu_compute_processes_at_finalize": []
+}

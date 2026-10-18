@@ -1,0 +1,35 @@
+{
+  "binding": "6368c2fd2b34533581acbb4ec4230686d2939831fea3a7f15457d8052a379050",
+  "diagnostic": {
+    "mean_a": 1.0,
+    "survival": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "windows": [
+      {
+        "a": 1,
+        "position": 0,
+        "proposal": [
+          40,
+          614,
+          6679,
+          311,
+          2548,
+          1435,
+          911,
+          806
+        ]
+      }
+    ]
+  },
+  "domain": "translation",
+  "id": "translation:139962:148aaaa2e5c4cb8bf1df2286785a2fb6687001c3eded1259929e1eed5da84496",
+  "teacher_sha256": "2b2ed003d688c57977b6c1b685a58132f65aa7444654fd9e11af9cf0ac92fc83"
+}

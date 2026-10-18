@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-18T03:50:36.376238+00:00",
+  "branch_proxy": {
+    "no_rejection": 100,
+    "potential_suffix_tokens": 44,
+    "rejected": 242,
+    "root_hit_if_parallel_generated": 18,
+    "windows": 342
+  },
+  "branch_proxy_caveat": "Alternate proposal was generated at same public target prefix; selection ignores online KV and charges a full extra L8 proposal. No claim of async or net speed.",
+  "counts": {
+    "calibration": {
+      "requests": 95,
+      "windows": 1180
+    },
+    "fit": {
+      "requests": 290,
+      "windows": 3660
+    },
+    "holdout": {
+      "requests": 95,
+      "windows": 1235
+    }
+  },
+  "heldout_brier_improvement": 0.04361281669690533,
+  "heldout_brier_improvement_ci95": [
+    0.016864903000168144,
+    0.07070146614048682
+  ],
+  "scope": "offline public-prefix proxy; not online/WAN speed",
+  "scores": {
+    "domain_expert_history": {
+      "brier_early4": 0.21764837893611075,
+      "early_reject_rate": 0.582995951417004,
+      "logloss_position": 1.8919908084559711,
+      "mae_expected_a": 2.4513550600968976,
+      "n_requests": 81,
+      "n_windows": 1235
+    },
+    "history_bucket": {
+      "brier_early4": 0.24448768424310385,
+      "early_reject_rate": 0.582995951417004,
+      "logloss_position": 1.9439774715970104,
+      "mae_expected_a": 2.808639687484066,
+      "n_requests": 81,
+      "n_windows": 1235
+    },
+    "marginal": {
+      "brier_early4": 0.24910376307950396,
+      "early_reject_rate": 0.582995951417004,
+      "logloss_position": 1.9548479546861308,
+      "mae_expected_a": 2.8449753542923917,
+      "n_requests": 81,
+      "n_windows": 1235
+    }
+  },
+  "source_manifest_sha256": "9542965d3fd3f1dda33cc189978576a65e61d24676a1b511f45f886ea43fede7",
+  "source_script_sha256": "1703045bf2a37fb3255a076d126135b0c75ef9373355953682bc2e9e72dceb85",
+  "split_ids_sha256": {
+    "calibration": "3887f557c1c79e43de87e2cdbad020b07c4851534b9dd58cf5a80acec6224d6e",
+    "fit": "c3ddf04570c119577d479b608e3b4c587bcf62efab9f700793747df2474c7011",
+    "holdout": "3882d4fa9ccb8bf6ba25f3d782ebd4a386ff5ef5ec191d9b2a7d0b70b2bfb840"
+  },
+  "split_seed": "v3-reject-split-20261018",
+  "state": "complete",
+  "strongest_simple_baseline": "history_bucket"
+}

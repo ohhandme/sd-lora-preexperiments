@@ -1,0 +1,18 @@
+{
+  "actual_rejections": 53,
+  "at": "2026-10-18T03:54:32.989125+00:00",
+  "branches_generated": 34,
+  "caveat": "Counterfactual prefix replay only. Branches are discarded unless both rejection position and correction root match. Actual online correctness/speed untested.",
+  "input_manifest_sha256": "b7a8f91820d4814c5c117ae585ef845c965d5bb6db6347eebdc2e1945a600d21",
+  "predicted_exact": 15,
+  "qualified": 64,
+  "requested": 75,
+  "reused_suffix_tokens": 4,
+  "root_hits": 2,
+  "scope": "same-target-prefix, one predicted top2 correction branch; no actual async or WAN",
+  "script_sha256": "3511310a9cb181993048573d7dec0df76ea039c52c65c6f3b0050c002cb7ddfc",
+  "state": "complete",
+  "sum_branch_ms_with_fresh_prefill": 5683.955351822078,
+  "sum_main_draft_ms": 22701.797580346465,
+  "unqualified": 11
+}

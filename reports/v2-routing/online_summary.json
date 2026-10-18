@@ -1,0 +1,131 @@
+{
+  "SD_comparisons": 240,
+  "at": "2026-10-17T19:52:31.115517+00:00",
+  "draft": "Qwen3-0.6B BF16",
+  "independent_AR_requests": 40,
+  "limitations": [
+    "Single repeat does not quantify run-to-run latency variability.",
+    "One GPU only; not a WAN/edge-cloud throughput measurement.",
+    "Oracle is offline and has no online timing.",
+    "Existing Python cached decoder may have implementation overhead."
+  ],
+  "methods": {
+    "BASE": {
+      "by_domain": {
+        "code": 0.4911787291311617,
+        "math": 0.6173049043824397,
+        "qa": 0.29293380564678134,
+        "summary": 0.3510857725578007,
+        "translation": 0.36843006144646384
+      },
+      "mean_accepted_per_round": 3.2056301255964157,
+      "paired_request_count": 40,
+      "peak_allocated_bytes_max": 19222934528,
+      "speedup_ci95_request_bootstrap": [
+        0.37307596377941243,
+        0.44867144691499106
+      ],
+      "speedup_geomean": 0.4093128811947722,
+      "total_ar_seconds": 200.08047054708004,
+      "total_sd_including_route_seconds": 461.33411679044366
+    },
+    "DOMAIN": {
+      "by_domain": {
+        "code": 0.45144521018681055,
+        "math": 0.549303492259827,
+        "qa": 0.271971619896115,
+        "summary": 0.3012292209990812,
+        "translation": 0.2799633981807844
+      },
+      "mean_accepted_per_round": 3.2999212893735757,
+      "paired_request_count": 40,
+      "peak_allocated_bytes_max": 19268809728,
+      "speedup_ci95_request_bootstrap": [
+        0.32151059414209365,
+        0.3929038195370571
+      ],
+      "speedup_geomean": 0.3556213862283387,
+      "total_ar_seconds": 200.08047054708004,
+      "total_sd_including_route_seconds": 515.3301125364378
+    },
+    "ROUTE-ACC": {
+      "by_domain": {
+        "code": 0.452544820505766,
+        "math": 0.5465777640303008,
+        "qa": 0.2708850926455756,
+        "summary": 0.30107412571281067,
+        "translation": 0.3264707234795949
+      },
+      "mean_accepted_per_round": 3.2999212893735757,
+      "paired_request_count": 40,
+      "peak_allocated_bytes_max": 19268809728,
+      "speedup_ci95_request_bootstrap": [
+        0.33327496606120116,
+        0.4022765683085493
+      ],
+      "speedup_geomean": 0.3662041552811827,
+      "total_ar_seconds": 200.08047054708004,
+      "total_sd_including_route_seconds": 512.7198146684095
+    },
+    "ROUTE-TASK": {
+      "by_domain": {
+        "code": 0.43752519230919695,
+        "math": 0.4746470191556901,
+        "qa": 0.26302860983461523,
+        "summary": 0.2899876819388234,
+        "translation": 0.3157308663917886
+      },
+      "mean_accepted_per_round": 3.2999212893735757,
+      "paired_request_count": 40,
+      "peak_allocated_bytes_max": 19268809728,
+      "speedup_ci95_request_bootstrap": [
+        0.3182081803325567,
+        0.3771887853085433
+      ],
+      "speedup_geomean": 0.34658892473620784,
+      "total_ar_seconds": 200.08047054708004,
+      "total_sd_including_route_seconds": 542.7401535538957
+    },
+    "mix16": {
+      "by_domain": {
+        "code": 0.44751597377846014,
+        "math": 0.5447200253113738,
+        "qa": 0.26236341003746855,
+        "summary": 0.3069058856606735,
+        "translation": 0.3459748384975223
+      },
+      "mean_accepted_per_round": 3.302695293014889,
+      "paired_request_count": 40,
+      "peak_allocated_bytes_max": 19232109568,
+      "speedup_ci95_request_bootstrap": [
+        0.3366375011733524,
+        0.4037672154393816
+      ],
+      "speedup_geomean": 0.3684571397952962,
+      "total_ar_seconds": 200.08047054708004,
+      "total_sd_including_route_seconds": 513.3015104131773
+    },
+    "mix80": {
+      "by_domain": {
+        "code": 0.4442121457860232,
+        "math": 0.5619078201688642,
+        "qa": 0.2634623790025543,
+        "summary": 0.31008333216028017,
+        "translation": 0.3557796438427452
+      },
+      "mean_accepted_per_round": 3.342101387219902,
+      "paired_request_count": 40,
+      "peak_allocated_bytes_max": 19268809728,
+      "speedup_ci95_request_bootstrap": [
+        0.3414307673070386,
+        0.408980838865157
+      ],
+      "speedup_geomean": 0.3733590875795477,
+      "total_ar_seconds": 200.08047054708004,
+      "total_sd_including_route_seconds": 509.69861701503396
+    }
+  },
+  "scope": "pilot40, eight per task, L8, single timing repeat",
+  "state": "complete",
+  "target": "Qwen3-8B BF16 greedy non-thinking"
+}

@@ -1,0 +1,60 @@
+{
+  "additional_SD_comparisons": 80,
+  "at": "2026-10-17T20:12:31.099477+00:00",
+  "independent_AR_requests_reused": 40,
+  "limitations": [
+    "Meta-UCB is a UCB reward baseline with eight-switch budget inspired by MetaSD, not its paper implementation.",
+    "COST-UCB uses train-only task priors and observed verification reward; no future target tokens.",
+    "One GPU and one timing repeat; no WAN claim.",
+    "Offline Oracle has no online timing."
+  ],
+  "methods": {
+    "COST-UCB": {
+      "by_domain_speedup_vs_MIX80": {
+        "code": 1.0035832704312342,
+        "math": 0.9729823420487241,
+        "qa": 0.9833438882296418,
+        "summary": 0.9678444219771443,
+        "translation": 0.8533095484910914
+      },
+      "mean_accepted_draft_length": 3.2313258121043815,
+      "mean_switches_per_request": 0.575,
+      "paired_request_count": 40,
+      "speedup_vs_AR_ci95": [
+        0.3243081550716705,
+        0.39154289070177933
+      ],
+      "speedup_vs_AR_geomean": 0.3564362918031423,
+      "speedup_vs_MIX80_ci95": [
+        0.9129242687447985,
+        0.9901578484706798
+      ],
+      "speedup_vs_MIX80_geomean": 0.9546742095227562
+    },
+    "META-UCB": {
+      "by_domain_speedup_vs_MIX80": {
+        "code": 0.9812852812427597,
+        "math": 1.0105822013621166,
+        "qa": 1.0047188562806215,
+        "summary": 0.9760370890068178,
+        "translation": 0.901229514065124
+      },
+      "mean_accepted_draft_length": 3.2849985066053744,
+      "mean_switches_per_request": 7.425,
+      "paired_request_count": 40,
+      "speedup_vs_AR_ci95": [
+        0.3297324817222646,
+        0.4008220529802134
+      ],
+      "speedup_vs_AR_geomean": 0.36363809041682676,
+      "speedup_vs_MIX80_ci95": [
+        0.9302054972401763,
+        1.014618136739224
+      ],
+      "speedup_vs_MIX80_geomean": 0.9739634108660878
+    }
+  },
+  "scope": "pilot40, eight per task, L8, single timing repeat",
+  "state": "complete",
+  "static_report": "/root/autodl-tmp/sd-lora-preexp/experiments/v2-routing/results/online_pilot/summary.json"
+}

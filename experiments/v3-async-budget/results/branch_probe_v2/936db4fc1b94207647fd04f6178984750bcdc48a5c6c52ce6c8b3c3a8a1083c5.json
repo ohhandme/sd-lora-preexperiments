@@ -1,0 +1,35 @@
+{
+  "actual_accepted": 0,
+  "branch_generated": true,
+  "branch_ms": 130.6648487225175,
+  "branch_root": 1943,
+  "branch_suffix": [
+    311,
+    279,
+    9257
+  ],
+  "domain": "qa",
+  "draft_main_ms": 338.7827333062887,
+  "id": "qa:26303:dfb977bf7aad71ccfe171ac855f6237e48f8bc9daf5b97df0f302759d5ddaeae",
+  "position": 32,
+  "predicted_exact": false,
+  "predicted_rejection_position": 1,
+  "proposal": [
+    419,
+    6524,
+    311,
+    279,
+    9257,
+    315,
+    56133,
+    304
+  ],
+  "reused_suffix_tokens": 0,
+  "root_hit": false,
+  "state": "complete",
+  "target_correction": 432,
+  "top2_at_prediction": [
+    6524,
+    1943
+  ]
+}

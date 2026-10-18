@@ -1,0 +1,26 @@
+{
+  "actual_accepted": 0,
+  "branch_generated": false,
+  "branch_ms": 0.0,
+  "domain": "code",
+  "draft_main_ms": 363.71348705142736,
+  "id": "code:127868:d231358a36ef8961e6a1d83fa385a0a21f10c59c2390c282f76f0d2b3f3d6b46",
+  "position": 32,
+  "predicted_exact": false,
+  "predicted_rejection_position": 8,
+  "proposal": [
+    897,
+    982,
+    286,
+    656,
+    2824,
+    284,
+    897,
+    198
+  ],
+  "reused_suffix_tokens": 0,
+  "root_hit": false,
+  "state": "complete",
+  "target_correction": 11031,
+  "top2_at_prediction": null
+}

@@ -1,0 +1,103 @@
+{
+  "at": "2026-10-18T05:33:59.496883+00:00",
+  "calibration_requests": 95,
+  "calibration_score": {
+    "chosen_mean_a": 3.6404833836858006,
+    "chosen_minus_mix80_request_mean": -0.30157894736842106,
+    "mix80_mean_a": 3.8610271903323263,
+    "oracle_mean_a": 3.9516616314199395,
+    "qualified_requests": 95,
+    "requests": 95,
+    "switches": 23,
+    "windows": 331
+  },
+  "caveat": "Public teacher prefixes are 32 tokens apart, unlike consecutive online rounds. Exact-token online output and net latency remain untested.",
+  "chosen_config": [
+    8.0,
+    0.0,
+    0.25
+  ],
+  "fit_requests": 290,
+  "holdout_delta_ci95": [
+    -0.2894035087719298,
+    0.03252192982456105
+  ],
+  "holdout_requests": 95,
+  "holdout_score": {
+    "chosen_mean_a": 3.7339181286549707,
+    "chosen_minus_mix80_request_mean": -0.13035087719298247,
+    "mix80_mean_a": 3.8801169590643276,
+    "oracle_mean_a": 4.076023391812866,
+    "qualified_requests": 95,
+    "requests": 95,
+    "switches": 24,
+    "windows": 342
+  },
+  "prompt_domain_accuracy_holdout": 1.0,
+  "scope": "offline public-prefix proxy, not online speed",
+  "script_sha256": "87f1c00496d4bb5d5eb2e1c0ccb0aa46295b51da010755aec19106bb3509fb48",
+  "source_manifest_sha256": "9542965d3fd3f1dda33cc189978576a65e61d24676a1b511f45f886ea43fede7",
+  "state": "complete",
+  "tuning_menu": [
+    [
+      2.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.0,
+      0.0,
+      0.25
+    ],
+    [
+      2.0,
+      0.0,
+      0.5
+    ],
+    [
+      2.0,
+      0.5,
+      0.0
+    ],
+    [
+      2.0,
+      0.5,
+      0.25
+    ],
+    [
+      2.0,
+      0.5,
+      0.5
+    ],
+    [
+      8.0,
+      0.0,
+      0.0
+    ],
+    [
+      8.0,
+      0.0,
+      0.25
+    ],
+    [
+      8.0,
+      0.0,
+      0.5
+    ],
+    [
+      8.0,
+      0.5,
+      0.0
+    ],
+    [
+      8.0,
+      0.5,
+      0.25
+    ],
+    [
+      8.0,
+      0.5,
+      0.5
+    ]
+  ]
+}

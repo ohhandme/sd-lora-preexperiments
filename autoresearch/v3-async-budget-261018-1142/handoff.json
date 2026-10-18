@@ -1,0 +1,9 @@
+{
+  "state": "stopped_at_negative_P2_gate",
+  "scope": "v3 rejection-position and budgeted expert pilot; not online or WAN speed",
+  "completed": ["request-disjoint offline rejection proxy", "GPU top2 branch feasibility and exact draft replay", "budgeted expert public-prefix holdout"],
+  "not_run": ["new decoder exact-token online comparison", "real asynchronous edge-cloud execution", "cost-constrained reinforcement learning", "new target scale or seed expansion"],
+  "negative_evidence": "2 root hits and 4 useful suffix tokens from 34 generated branches; budgeted expert 3.734 accepted vs same-window MIX80 3.880; P2 does not justify P3",
+  "reports": ["experiments/v3-async-budget/RESULTS.md", "experiments/v3-async-budget/results/offline_probe.json", "experiments/v3-async-budget/results/branch_probe_v2_summary.json", "experiments/v3-async-budget/results/budget_probe.json"],
+  "next": "Verify GitHub backup and GPU cleanup before 17:20 Asia/Shanghai release"
+}

@@ -1,0 +1,35 @@
+{
+  "actual_accepted": 2,
+  "branch_generated": true,
+  "branch_ms": 203.4918600693345,
+  "branch_root": 3940,
+  "branch_suffix": [
+    304,
+    18907,
+    19335
+  ],
+  "domain": "summary",
+  "draft_main_ms": 439.34750743210316,
+  "id": "summary:003eaac389a2450171f99f216b95f8741b58cbf0:dfbb2da3934eb32f43c13ca99b85884c2d146d6a15e9a65a14212a33766e8bc9",
+  "position": 32,
+  "predicted_exact": false,
+  "predicted_rejection_position": 0,
+  "proposal": [
+    18179,
+    304,
+    18907,
+    19335,
+    13,
+    576,
+    18179,
+    11
+  ],
+  "reused_suffix_tokens": 0,
+  "root_hit": false,
+  "state": "complete",
+  "target_correction": 19335,
+  "top2_at_prediction": [
+    18179,
+    3940
+  ]
+}

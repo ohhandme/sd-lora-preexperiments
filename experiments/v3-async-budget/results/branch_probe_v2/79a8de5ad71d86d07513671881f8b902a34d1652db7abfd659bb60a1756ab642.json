@@ -1,0 +1,26 @@
+{
+  "actual_accepted": 8,
+  "branch_generated": false,
+  "branch_ms": 0.0,
+  "domain": "code",
+  "draft_main_ms": 344.8629779741168,
+  "id": "code:2249:ff2417b7d0af29e774660ce224ac42009ee660b3d1bcf85369ca683d9c062854",
+  "position": 32,
+  "predicted_exact": true,
+  "predicted_rejection_position": 8,
+  "proposal": [
+    271,
+    750,
+    2629,
+    2019,
+    9146,
+    47207,
+    982,
+    262
+  ],
+  "reused_suffix_tokens": 0,
+  "root_hit": false,
+  "state": "complete",
+  "target_correction": null,
+  "top2_at_prediction": null
+}
