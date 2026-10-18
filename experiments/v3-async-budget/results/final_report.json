@@ -1,0 +1,29 @@
+{
+  "at_utc": "2026-10-18T05:43:02Z",
+  "state": "completed_with_negative_P2_gate",
+  "scope": "v3 finite pre-experiment on Qwen3-0.6B domain adapters and frozen Qwen3-8B teacher prefixes; no real WAN or online branch decoder",
+  "gates": {
+    "P0": "partial_static_replay_only; independent end-to-end branch decoder not built",
+    "P1": "offline_signal_detected; early4 Brier 0.217648 versus history 0.244488 on 81 qualified holdout requests",
+    "P2_branch": "negative; 2 root hits and 4 reusable suffix tokens from 34 generated branches, with 5.684 seconds fresh-prefill branch compute",
+    "P2_budget_experts": "negative; mean accepted 3.733918 versus paired MIX80 3.880117 on 342 holdout public-prefix windows",
+    "P3": "not_run_by_negative_P2_gate",
+    "P4": "not_unlocked"
+  },
+  "source_and_result_sha256": {
+    "remote_v1_root_program": "6e119661db905a609565363b6b75d4c5a3a8b4f7544940dc8d51d4b1774f4b43",
+    "remote_v2_program": "a9476e17df858d0eeb8ade29f3eed9046ea6583732ff50d0a1d1a2d538e4ef00",
+    "remote_v3_program": "03a89b9b59274b1a0982628fa6272a8b7f45e68f10cd292f3f801ad646c7275d",
+    "offline_probe": "c1b9b10b8fd858d260b783ef80b1d34bf046af7413148e779b7dc226f101103a",
+    "branch_probe": "431d981a67ac9e20c7ad44c1b0438fe77379606b1adb916608b390ed11e2a879",
+    "budget_probe": "7b1200d1c8ed34d2f5a24a724966ca710e30d01662f0c39fee13f575071b75c9",
+    "selected_v2_weights_and_teacher_archive": "4f31871ae3496fe7f040dea2ec490279d03ab549f7a96bb9306e7e419653a06b"
+  },
+  "gpu_at_audit": {
+    "device": "NVIDIA RTX 6000D",
+    "used_memory_mib": 0,
+    "utilization_percent": 0,
+    "owned_v3_compute_process_count": 0
+  },
+  "scientific_limit": "Public teacher prefixes are not contiguous online rollout. Oracle and branch reuse are retrospective. No cloud-edge speedup, strict online branch decoding, or reinforcement learning result is claimed."
+}

@@ -16,4 +16,4 @@ P1 的两种改善数字口径不同：0.2445−0.2176＝0.0268 是所有窗口�
 
 若以后继续，应先采集**连续在线**轮次的草稿熵、margin 与每轮目标验证时延，测独立校准后预测是否仍有效；再用真实 4090→云端网络记录检验延迟能否掩蔽分支计算。纠错根可探索多候选，但必须把分支 token、KV、上行字节和云端验证一起计费。只有单步策略与强基线的实际时间相当且逐 token 输出严格一致，才有理由训练成本约束 RL；当前不启动耗时训练。
 
-可复核结果：[拒绝位置](results/offline_probe.json)、[纠错分支](results/branch_probe_v2_summary.json)、[预算专家](results/budget_probe.json)；原始逐请求记录在 `results/branch_probe_v2/` 与 `results/mix80_router_train/`。这些报告记录源 manifest、脚本和分区哈希。远端旧 v1/v2 源码与报告维持原状。
+可复核结果：[总审计](results/final_report.json)、[拒绝位置](results/offline_probe.json)、[纠错分支](results/branch_probe_v2_summary.json)、[预算专家](results/budget_probe.json)；原始逐请求记录在 `results/branch_probe_v2/` 与 `results/mix80_router_train/`。这些报告记录源 manifest、脚本和分区哈希。远端旧 v1/v2 源码与报告维持原状。
