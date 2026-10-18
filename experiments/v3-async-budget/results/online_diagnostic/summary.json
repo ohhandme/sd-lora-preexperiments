@@ -1,0 +1,70 @@
+{
+  "at_utc": "2026-10-18T06:59:02.224055+00:00",
+  "device": "NVIDIA RTX 6000D",
+  "exact_token_eos_truncation_match": true,
+  "limits": "15 router_train requests, one timing repeat, no asynchronous branch or WAN; not formal v3 P3",
+  "methods": {
+    "AR": {
+      "geo_speed_vs_ar": 1.0,
+      "mean_accepted_per_round": null,
+      "mean_latency_ms": 3574.969400589665,
+      "mean_proposed_length": null,
+      "mean_target_calls": 103.33333333333333,
+      "median_latency_ms": 4012.1996803209186,
+      "peak_allocated_gib": 16.216658115386963,
+      "request_count": 15
+    },
+    "H4-8": {
+      "geo_speed_vs_L8": 1.035558966765251,
+      "geo_speed_vs_L8_bootstrap95_request": [
+        0.9369611329780564,
+        1.1369226745868353
+      ],
+      "geo_speed_vs_ar": 0.4097620581224413,
+      "geo_speed_vs_ar_bootstrap95_request": [
+        0.35579839366473076,
+        0.48126381564562776
+      ],
+      "mean_accepted_per_round": 2.2609603340292277,
+      "mean_latency_ms": 9413.61667936047,
+      "mean_proposed_length": 5.465553235908142,
+      "mean_target_calls": 32.93333333333333,
+      "median_latency_ms": 11769.71229352057,
+      "peak_allocated_gib": 18.003726959228516,
+      "request_count": 15
+    },
+    "L8": {
+      "geo_speed_vs_ar": 0.3956916711391188,
+      "geo_speed_vs_ar_bootstrap95_request": [
+        0.32469465698565353,
+        0.48502191019277036
+      ],
+      "mean_accepted_per_round": 2.584862385321101,
+      "mean_latency_ms": 10135.379785423478,
+      "mean_proposed_length": 7.672018348623853,
+      "mean_target_calls": 30.066666666666666,
+      "median_latency_ms": 11010.216474533081,
+      "peak_allocated_gib": 18.003726959228516,
+      "request_count": 15
+    }
+  },
+  "request_ids": [
+    "code:110087:616c25de6e2b072d149fa3230ea31fc356a896a3984e2efd5cd3fa018626d41b",
+    "code:148364:a2451802a02aea0fc3f46fcfddada459557282fd7b365005a5cbea0d825554b1",
+    "code:21071:617d5105cafd75e27dda165a795154c7d761f50535094437e4e4f0fb5cb06c1b",
+    "translation:104517:699cd30045e642dbe64dd0d3f02a3b64eca18ae1fbc89c08d1254cffaa7c6554",
+    "translation:994537:a2eaff693722d7f2f4f587b695702b01aba2e69761ce4cfae1a25b219ee60ca4",
+    "translation:849055:9511e02afe9aa221c93f277ddb84e6c9c4bf10c66a0f5b8216d2cc4cc25c77f7",
+    "summary:f8dee2440c5626355228a09d0c7739b9f126c9b3:4cc45032a56d6fe671d94527e6d7077b334a1d7a3889fbf13132b7e3a4fd99c3",
+    "summary:ff59df14ee0053c95037342580088a59641e3641:271dd00383814e7f42a739d75e106535cae8f2af255c8eef8fb4c84bbcf92470",
+    "summary:7b8fea9c212bf8e4cad1e2c6d3d3a6043df2c11e:caa3124c61c17d3d6f0d400ccf632a1cb9d966f2d12321a0ca2afb1d04fc9efa",
+    "qa:53987:aa61b3bf37ec3464308f3836e6a9dddcf45e00df528b468197dd1d567314c889",
+    "qa:33020:ef4206cf752cf17427f185ff0be10e69e583bc6a73b2a755294deb5ec17c71e2",
+    "qa:55949:167d6ff21c879a10a296a2781b20eef8e67d36bc101aa6b9b7820642a5747d13",
+    "math:4742:025ebd4b521b186fd715ae262299ab9e1705141c1966e20030ff989386096e2e",
+    "math:6107:a569148aa29b03a5fb45d55227c0779999c0d5e471160852914908076f69e082",
+    "math:1866:0ec176146af139ba8619f3dd4d022b2e53bc94de7afd3b77993d67281a4c7b93"
+  ],
+  "scope": "post-P2-gate diagnostic only",
+  "state": "complete"
+}

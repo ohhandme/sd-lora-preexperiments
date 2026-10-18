@@ -1,0 +1,162 @@
+{
+  "domain": "translation",
+  "eos": true,
+  "id": "translation:104517:699cd30045e642dbe64dd0d3f02a3b64eca18ae1fbc89c08d1254cffaa7c6554",
+  "method": "L8",
+  "peak_allocated": 17712046080,
+  "peak_reserved": 19012780032,
+  "result": {
+    "decode_seconds": 0.07977287750691175,
+    "draft_calls": 9,
+    "latency_ms": 566.5585650131106,
+    "margins": [
+      {
+        "margin": 24.125,
+        "top_ids": [
+          2132,
+          641
+        ],
+        "top_logits": [
+          52.0,
+          27.875
+        ]
+      },
+      {
+        "margin": 6.75,
+        "top_ids": [
+          374,
+          594
+        ],
+        "top_logits": [
+          52.5,
+          45.75
+        ]
+      },
+      {
+        "margin": 6.25,
+        "top_ids": [
+          31267,
+          4558
+        ],
+        "top_logits": [
+          45.5,
+          39.25
+        ]
+      },
+      {
+        "margin": 18.375,
+        "top_ids": [
+          11997,
+          82652
+        ],
+        "top_logits": [
+          47.5,
+          29.125
+        ]
+      },
+      {
+        "margin": 30.375,
+        "top_ids": [
+          311,
+          983
+        ],
+        "top_logits": [
+          56.0,
+          25.625
+        ]
+      },
+      {
+        "margin": 7.5,
+        "top_ids": [
+          4051,
+          4057
+        ],
+        "top_logits": [
+          49.25,
+          41.75
+        ]
+      },
+      {
+        "margin": 23.5,
+        "top_ids": [
+          1105,
+          700
+        ],
+        "top_logits": [
+          60.0,
+          36.5
+        ]
+      },
+      {
+        "margin": 32.5,
+        "top_ids": [
+          700,
+          13967
+        ],
+        "top_logits": [
+          63.25,
+          30.75
+        ]
+      },
+      {
+        "margin": 27.25,
+        "top_ids": [
+          13,
+          382
+        ],
+        "top_logits": [
+          53.5,
+          26.25
+        ]
+      },
+      {
+        "margin": 17.0,
+        "top_ids": [
+          151645,
+          25521
+        ],
+        "top_logits": [
+          37.0,
+          20.0
+        ]
+      }
+    ],
+    "rounds": [
+      {
+        "Lr": 8,
+        "ar": 8,
+        "draft_cache": 53,
+        "nr": 9,
+        "prefix_len": 46,
+        "target_cache": 54
+      },
+      {
+        "Lr": 1,
+        "ar": 1,
+        "draft_cache": 55,
+        "nr": 1,
+        "prefix_len": 55,
+        "target_cache": 55
+      }
+    ],
+    "target_calls": 3,
+    "target_prefill_calls": 1,
+    "target_verify_calls": 2,
+    "tokens": [
+      2132,
+      374,
+      31267,
+      11997,
+      311,
+      4051,
+      1105,
+      700,
+      13,
+      151645
+    ],
+    "ttft_ms": 486.7856875061989
+  },
+  "subset_sha": "8636d66235f56bef7ebdc5a5904e6482b9349ac609e2989a0074f1aa9434af43",
+  "token_eos_truncation_equal": true,
+  "truncated": false
+}

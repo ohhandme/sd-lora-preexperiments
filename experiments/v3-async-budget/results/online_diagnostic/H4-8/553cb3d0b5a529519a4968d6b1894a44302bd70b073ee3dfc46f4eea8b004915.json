@@ -1,0 +1,230 @@
+{
+  "domain": "translation",
+  "eos": true,
+  "id": "translation:994537:a2eaff693722d7f2f4f587b695702b01aba2e69761ce4cfae1a25b219ee60ca4",
+  "method": "H4-8",
+  "peak_allocated": 17744113152,
+  "peak_reserved": 19042140160,
+  "result": {
+    "decode_seconds": 0.5899856192991138,
+    "draft_calls": 20,
+    "latency_ms": 1115.4427789151669,
+    "margins": [
+      {
+        "margin": 18.125,
+        "top_ids": [
+          19,
+          28501
+        ],
+        "top_logits": [
+          49.75,
+          31.625
+        ]
+      },
+      {
+        "margin": 23.75,
+        "top_ids": [
+          13,
+          64663
+        ],
+        "top_logits": [
+          44.25,
+          20.5
+        ]
+      },
+      {
+        "margin": 3.75,
+        "top_ids": [
+          11261,
+          4058
+        ],
+        "top_logits": [
+          40.75,
+          37.0
+        ]
+      },
+      {
+        "margin": 6.0,
+        "top_ids": [
+          27019,
+          7671
+        ],
+        "top_logits": [
+          49.25,
+          43.25
+        ]
+      },
+      {
+        "margin": 0.25,
+        "top_ids": [
+          23046,
+          72708
+        ],
+        "top_logits": [
+          49.5,
+          49.25
+        ]
+      },
+      {
+        "margin": 2.75,
+        "top_ids": [
+          304,
+          311
+        ],
+        "top_logits": [
+          46.25,
+          43.5
+        ]
+      },
+      {
+        "margin": 3.25,
+        "top_ids": [
+          279,
+          95078
+        ],
+        "top_logits": [
+          42.75,
+          39.5
+        ]
+      },
+      {
+        "margin": 11.875,
+        "top_ids": [
+          4367,
+          12610
+        ],
+        "top_logits": [
+          42.5,
+          30.625
+        ]
+      },
+      {
+        "margin": 19.25,
+        "top_ids": [
+          2348,
+          68749
+        ],
+        "top_logits": [
+          51.25,
+          32.0
+        ]
+      },
+      {
+        "margin": 14.0,
+        "top_ids": [
+          23145,
+          19740
+        ],
+        "top_logits": [
+          44.75,
+          30.75
+        ]
+      },
+      {
+        "margin": 21.5,
+        "top_ids": [
+          323,
+          11
+        ],
+        "top_logits": [
+          45.5,
+          24.0
+        ]
+      },
+      {
+        "margin": 4.25,
+        "top_ids": [
+          1356,
+          5312
+        ],
+        "top_logits": [
+          40.25,
+          36.0
+        ]
+      },
+      {
+        "margin": 6.0,
+        "top_ids": [
+          41140,
+          65180
+        ],
+        "top_logits": [
+          38.25,
+          32.25
+        ]
+      },
+      {
+        "margin": 7.25,
+        "top_ids": [
+          9778,
+          9158
+        ],
+        "top_logits": [
+          43.75,
+          36.5
+        ]
+      },
+      {
+        "margin": 1.0,
+        "top_ids": [
+          151645,
+          320
+        ],
+        "top_logits": [
+          33.75,
+          32.75
+        ]
+      }
+    ],
+    "rounds": [
+      {
+        "Lr": 8,
+        "ar": 5,
+        "draft_cache": 69,
+        "nr": 6,
+        "prefix_len": 64,
+        "target_cache": 69
+      },
+      {
+        "Lr": 8,
+        "ar": 5,
+        "draft_cache": 75,
+        "nr": 6,
+        "prefix_len": 70,
+        "target_cache": 75
+      },
+      {
+        "Lr": 4,
+        "ar": 2,
+        "draft_cache": 78,
+        "nr": 3,
+        "prefix_len": 76,
+        "target_cache": 78
+      }
+    ],
+    "target_calls": 4,
+    "target_prefill_calls": 1,
+    "target_verify_calls": 3,
+    "tokens": [
+      19,
+      13,
+      11261,
+      27019,
+      23046,
+      304,
+      279,
+      4367,
+      2348,
+      23145,
+      323,
+      1356,
+      41140,
+      9778,
+      151645
+    ],
+    "ttft_ms": 525.4571596160531
+  },
+  "subset_sha": "8636d66235f56bef7ebdc5a5904e6482b9349ac609e2989a0074f1aa9434af43",
+  "token_eos_truncation_equal": true,
+  "truncated": false
+}
